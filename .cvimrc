@@ -1,0 +1,10 @@
+let scrollstep = "200"
+let barpostition = "bottom"
+let mapleader = ","
+set smoothscroll
+set noautofocus
+set autohidecursor
+set showtabindices
+set completeonopen
+map F createActiveTabbedHint
+map R reloadTabUncached

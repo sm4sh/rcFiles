@@ -1,0 +1,10 @@
+.svn
+.cvs
+.idea
+.DS_Store
+.git
+.hg
+/var
+.#*
+/vendor
+/node_modules

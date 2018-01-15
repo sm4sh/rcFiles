@@ -1,0 +1,19 @@
+settings {
+   logfile = "/tmp/lsyncd.log",
+   statusFile = "/tmp/lsyncd.status",
+   nodaemon = true,
+}
+
+sync {
+   default.rsyncssh,
+   source = "/home/bab/src/hitmeister-web/",
+   targetdir = "/hitmeister/shop/current/src/",
+   excludeFrom="/home/bab/.lsyncd.exclude",
+   host = "dev",
+   rsync = {
+      archive = true,
+      whole_file = true,
+   },
+   delay = 0.1,
+
+}
