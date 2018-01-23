@@ -116,11 +116,6 @@ alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal: Finished/${GREEN}&${NC
 alias paste='curl -F "sprunge=<-" http://sprunge.us'
 alias wetter='curl --header 'Accept-Language:de-DE' wttr.in'
 
-alias pi1='sshpass -praspberry ssh pi@techpi-1.hitmeister.intern'
-alias pi2='sshpass -praspberry ssh pi@techpi-2.hitmeister.intern'
-alias pi3='sshpass -praspberry ssh pi@techpi-3.hitmeister.intern'
-alias pi4='sshpass -praspberry ssh pi@techpi-4.hitmeister.intern'
-alias pi5='sshpass -praspberry ssh pi@techpi-5.hitmeister.intern'
-alias pi6='sshpass -praspberry ssh pi@techpi-6.hitmeister.intern'
-alias pi10='sshpass -praspberry ssh pi@techpi-10.hitmeister.intern'
-alias pi12='sshpass -praspberry ssh pi@techpi-12.hitmeister.intern'
+
+#to be able to start custom commands after startup
+eval "$BASH_POST_RC"
