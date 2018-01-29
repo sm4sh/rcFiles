@@ -114,7 +114,7 @@ alias inst='sudo apt-get install'
 alias shop='~/src/hitmeister-web'
 alias speedtest='speedtest --bytes'
 alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal: Finished/${GREEN}&${NC}/"' 
-alias paste='curl -F "sprunge=<-" http://sprunge.us'
+alias paste="curl -F 'f:1=<-' ix.io"
 alias wetter='curl --header 'Accept-Language:de-DE' wttr.in'
 
 
