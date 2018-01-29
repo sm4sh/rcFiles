@@ -48,7 +48,7 @@ POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
 # ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
-COMPLETION_WAITING_DOTS="true"
+#COMPLETION_WAITING_DOTS="true"
 
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
@@ -67,7 +67,7 @@ HIST_STAMPS="dd.mm.yyyy"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(sudo git themes colored-man-pages)
+plugins=(sudo git themes colored-man-pages zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -107,6 +107,7 @@ NC=$'\033[0m' # No Color
 alias compose='ssh vagrant@bastian-boehne.hitmeister.dev "cd hitmeister.dev; composer install;"'
 alias dev='ssh dev'
 alias devs="ssh dev -t 'exec $SHELL -l -c \"cd shop;exec $SHELL\"'" 
+alias gpl='git pull'
 alias m8='mate'
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
