@@ -1,7 +1,7 @@
 let scrollstep = "200"
 let barpostition = "bottom"
 let mapleader = ","
-let hintcharacters = "asdfghjkl;"
+let hintcharacters = "qwertzuiopasdfghjkl;yxcvbnm"
 set smoothscroll
 set noautofocus
 set autohidecursor
