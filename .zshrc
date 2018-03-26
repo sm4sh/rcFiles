@@ -105,10 +105,11 @@ RED=$'\033[0;31m'
 GREEN=$'\033[1;32m'
 NC=$'\033[0m' # No Color
 
-alias compose='ssh vagrant@bastian-boehne.hitmeister.dev "cd hitmeister.dev; composer install;"'
+alias compose='ssh dev "cd shop; composer install;"'
 alias dev='ssh dev'
 alias devs="ssh dev -t 'exec $SHELL -l -c \"cd shop;exec $SHELL\"'" 
 alias gpl='git pull'
+alias grl="git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print \$3 }' | awk ' !x[\$0]++' | head -n5"
 alias m8='mate'
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
@@ -117,7 +118,6 @@ alias speedtest='speedtest --bytes'
 alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal: Finished/${GREEN}&${NC}/"' 
 alias paste="curl -F 'f:1=<-' ix.io"
 alias wetter='curl --header 'Accept-Language:de-DE' wttr.in'
-
 
 #to be able to start custom commands after startup
 eval "$BASH_POST_RC"

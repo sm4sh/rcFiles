@@ -16,7 +16,7 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 nmap <Leader><space> :nohlsearch<cr>
 
 "Einfaches Modus switchen - jj"
-imap jj <Esc>
+imap jk <Esc>
 
 "Char am Ende der Zeile einfügen - öö"
 imap <silent>öö <Esc>v`^me<Esc>gi<C-o>:call Ender()<CR>

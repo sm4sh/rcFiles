@@ -1,27 +1,55 @@
 set surround
 set showmode
-map <leader>a :action $SelectAll<CR>
-map <leader>b :action GotoDeclaration<CR>
-map <leader>c :action $Copy<CR>
-map <leader>d :action EditorDuplicate<CR>
-map <leader>e :action RecentFiles<CR>
-map <leader>f :action Find<CR>
-map <leader>g :action GotoLine<CR>
-map <leader>h :action TypeHierarchy<CR>
-map <leader>i :action ImplementMethods<CR>
-map <leader>m :action EditorScrollToCenter<CR>
-map <leader>n :action FileChooser.NewFolder<CR>
-map <leader>o :action OverrideMethods<CR>
-map <leader>p :action ParameterInfo<CR>
-map <leader>q :action GuiDesigner.QuickJavadoc<CR>
-map <leader>r :action Replace<CR>
-map <leader>s :action SaveAll<CR>
-map <leader>t :action Vcs.UpdateProject<CR>
-map <leader>u :action GotoSuperMethod<CR>
-map <leader>v :action $Paste<CR>
-map <leader>w :action EditorSelectWord<CR>
-map <leader>x :action $Cut<CR>
-map <leader>y :action EditorDeleteLine<CR>
-map <leader>[ :action EditorCodeBlockStart<CR>
-map <leader>] :action EditorCodeBlockEnd<CR>
-source ~/.vimrc
+set hlsearch
+set incsearch
+set ignorecase
+set scrolloff=5
+set history=1000
+let mapleader = ','
+
+
+" easy mode switching - jk"
+imap jk <Esc>
+
+" easy removal of searchhighlighting
+nmap <Leader><space> :nohlsearch<cr>
+
+" Replace all idea shortcuts with mapleader
+nmap <leader>a :action $SelectAll<CR>
+nmap <leader>b :action GotoDeclaration<CR>
+nmap <leader>c :action $Copy<CR>
+nmap <leader>d :action EditorDuplicate<CR>
+nmap <leader>e :action RecentFiles<CR>
+nmap <leader>f :action Find<CR>
+nmap <leader>g :action GotoLine<CR>
+nmap <leader>h :action TypeHierarchy<CR>
+nmap <leader>i :action ImplementMethods<CR>
+nmap <leader>m :action EditorScrollToCenter<CR>
+nmap <leader>n :action FileChooser.NewFolder<CR>
+nmap <leader>o :action OverrideMethods<CR>
+nmap <leader>p :action ParameterInfo<CR>
+nmap <leader>q :action GuiDesigner.QuickJavadoc<CR>
+nmap <leader>r :action Replace<CR>
+nmap <leader>s :action SaveAll<CR>
+nmap <leader>t :action Vcs.UpdateProject<CR>
+nmap <leader>u :action GotoSuperMethod<CR>
+nmap <leader>v :action $Paste<CR>
+nmap <leader>w :action EditorSelectWord<CR>
+nmap <leader>x :action $Cut<CR>
+nmap <leader>y :action EditorDeleteLine<CR>
+nmap <leader>[ :action EditorCodeBlockStart<CR>
+nmap <leader>] :action EditorCodeBlockEnd<CR>
+
+" Put search results in the middle of the screen
+nnoremap n nzz
+nnoremap N Nzz
+
+" Shortcut for copying to/from System Clipboard
+vmap <Leader><Leader>y "+y
+vmap <Leader><Leader>d "+d
+nmap <Leader><Leader>p "+p
+nmap <Leader><Leader>P "+P
+
+" easy tab switching via H and L
+nmap H gT
+nmap L gt
