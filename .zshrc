@@ -105,6 +105,7 @@ RED=$'\033[0;31m'
 GREEN=$'\033[1;32m'
 NC=$'\033[0m' # No Color
 
+alias ci='composer install'
 alias compose='ssh dev "cd shop; composer install;"'
 alias dev='ssh dev'
 alias devs="ssh dev -t 'exec $SHELL -l -c \"cd shop;exec $SHELL\"'" 

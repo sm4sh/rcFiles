@@ -7,6 +7,9 @@ set scrolloff=5
 set history=1000
 let mapleader = ','
 
+" shorter timeout between compound commands
+set timeoutlen=150
+
 
 " easy mode switching - jk"
 imap jk <Esc>
@@ -53,3 +56,8 @@ nmap <Leader><Leader>P "+P
 " easy tab switching via H and L
 nmap H gT
 nmap L gt
+
+" append ; at the end of the line via ';
+nnoremap '; A;<Esc>
+inoremap '; <Esc>A;<Esc>
+
