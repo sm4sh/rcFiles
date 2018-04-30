@@ -13,6 +13,5 @@ map K goForward
 map H previousTab
 map L nextTab
 
-
 let configpath = '/home/bab/.cvimrc'
 set localconfig
