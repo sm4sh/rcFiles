@@ -54,6 +54,7 @@ alias ci='composer install'
 alias compose='ssh dev "cd shop; composer install;"'
 alias dev='ssh dev'
 alias devpl='git checkout develop && git pull && git checkout -'
+alias devmg='git checkout develop && git pull && git checkout - && git merge develop'
 alias devs="ssh dev -t 'exec $SHELL -l -c \"cd shop;exec $SHELL\"'" 
 alias gbb='git branch -b'
 alias gpl='git pull'
