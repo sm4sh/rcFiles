@@ -1,9 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/texlive/2017/bin/x86_64-linux:
 export HM_APPLICATION_ENV=development
-export JIRA_URL=https://hitmeister.atlassian.net
-export JIRA_NAME=bastian.boehne
-export JIRA_DEFAULT_ACTION=dashboard
 export VISUAL=vim
 export EDITOR=$VISUAL
 export TERM="xterm-256color"
@@ -66,13 +63,11 @@ alias devpl='git checkout develop && git pull && git checkout -'
 alias devmg='git checkout develop && git pull && git checkout - && git merge develop'
 alias devs="ssh dev -t 'exec $SHELL -l -c \"cd shop;exec $SHELL\"'" 
 alias gbb='git branch -b'
-alias gpl='git pull'
 alias grl="git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print \$3 }' | awk ' !x[\$0]++' | head -n5"
-alias gmdev="git merge develop"
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
 alias ping8='ping 8.8.8.8'
-alias shop='~/src/hitmeister-web'
+alias shop='cd ~/src/hitmeister-web'
 alias speedtest='speedtest --bytes'
 alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal:.*finished/${GREEN}&${NC}/i"' 
 alias paste="curl -F 'f:1=<-' ix.io"
