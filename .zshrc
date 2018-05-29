@@ -12,6 +12,10 @@ export DISABLE_UPDATE_PROMPT=true
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
 
+# Fzf vars
+export FZF_COMPLETION_TRIGGER='.,'
+export FZF_DEFAULT_OPTS="--height 20% --select-1"
+
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
 DEFAULT_USER="bab"
@@ -38,9 +42,10 @@ HYPHEN_INSENSITIVE="true"
 HIST_STAMPS="dd.mm"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(sudo git themes colored-man-pages)
+plugins=(sudo git colored-man-pages)
 
 source $ZSH/oh-my-zsh.sh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 RED=$'\033[0;31m'
 GREEN=$'\033[1;32m'
@@ -48,6 +53,10 @@ NC=$'\033[0m' # No Color
 
 function ali() {
     alias | grep "$*"
+}
+
+function detach() {
+    $* </dev/null &>/dev/null &
 }
 
 alias ci='composer install'
@@ -62,6 +71,7 @@ alias grl="git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print
 alias gmdev="git merge develop"
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
+alias ping8='ping 8.8.8.8'
 alias shop='~/src/hitmeister-web'
 alias speedtest='speedtest --bytes'
 alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal:.*finished/${GREEN}&${NC}/i"' 
