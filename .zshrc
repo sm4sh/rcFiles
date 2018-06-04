@@ -43,9 +43,12 @@ plugins=(sudo git colored-man-pages)
 source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
-RED=$'\033[0;31m'
+BG_BLACK=$'\033[40m'
+BG_GREEN=$'\033[42m'
+BLACK=$'\033[0;30m'
 GREEN=$'\033[1;32m'
 NC=$'\033[0m' # No Color
+RED=$'\033[0;31m'
 
 function ali() {
     alias | grep "$*"
@@ -76,7 +79,7 @@ alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
 alias ping8='ping 8.8.8.8'
 alias speedtest='speedtest --bytes'
-alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal:.*finished/${GREEN}&${NC}/i"' 
+alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal:.*finished/${BLACK} ${BG_GREEN}&${NC}/i"' 
 alias paste="curl -F 'f:1=<-' ix.io"
 alias wetter='curl --header 'Accept-Language:de-DE' wttr.in'
 
