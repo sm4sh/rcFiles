@@ -1,4 +1,3 @@
-# If you come from bash you might have to change your $PATH.
 export PATH=$HOME/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/texlive/2017/bin/x86_64-linux:
 export HM_APPLICATION_ENV=development
 export VISUAL=vim
@@ -56,6 +55,15 @@ function detach() {
     $* </dev/null &>/dev/null &
 }
 
+function shop() {
+    if [ $(whoami) == 'vagrant' ]
+    then
+        cd /home/vagrant/shop
+        return 0
+    fi
+    cd /home/bab/src/hitmeister-web
+}
+
 alias ci='composer install'
 alias compose='ssh dev "cd shop; composer install;"'
 alias dev='ssh dev'
@@ -67,7 +75,6 @@ alias grl="git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
 alias ping8='ping 8.8.8.8'
-alias shop='cd ~/src/hitmeister-web'
 alias speedtest='speedtest --bytes'
 alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal:.*finished/${GREEN}&${NC}/i"' 
 alias paste="curl -F 'f:1=<-' ix.io"
