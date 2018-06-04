@@ -56,7 +56,7 @@ function detach() {
 }
 
 function shop() {
-    if [ $(whoami) == 'vagrant' ]
+    if [ $(whoami) = "vagrant" ]
     then
         cd /home/vagrant/shop
         return 0
