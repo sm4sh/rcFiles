@@ -1,15 +1,36 @@
+" paste buffer is normal buffer on linux
+set clipboard=unnamed
+
+" enable surround plugin for ideavim
 set surround
-set showmode
+
+" highlight search results
 set hlsearch
+
+" searching starts immediately when typing
 set incsearch
+
+" ignores case by default in searc
 set ignorecase
+
+" makes kebab-case count as word
+set iskeyword+=-
+
+" keep 5 lines between cursor and edge of screen
 set scrolloff=5
+
+" keep longer history
 set history=1000
+
+" hybrid line numbers
+set number
+set relativenumber
+
+" well duh
 let mapleader = ','
 
 " shorter timeout between compound commands
 set timeoutlen=150
-
 
 " easy mode switching - jk"
 imap jk <Esc>
@@ -47,12 +68,6 @@ nmap <leader>] :action EditorCodeBlockEnd<CR>
 nnoremap n nzz
 nnoremap N Nzz
 
-" Shortcut for copying to/from System Clipboard
-vmap <Leader><Leader>y "+y
-vmap <Leader><Leader>d "+d
-nmap <Leader><Leader>p "+p
-nmap <Leader><Leader>P "+P
-
 " easy tab switching via H and L
 nmap H gT
 nmap L gt
@@ -61,3 +76,6 @@ nmap L gt
 nnoremap '; A;<Esc>
 inoremap '; <Esc>A;<Esc>
 
+" acejump with s, line mode with S
+map s :action AceAction<CR>
+map S :action AceLineAction<CR>

@@ -1,12 +1,17 @@
 syntax enable
 
 set backspace=indent,eol,start
+set clipboard=unnamed
 let mapleader = ','
 set number
+set relativenumber
+set iskeyword+=-
+set scrolloff=5
 
 "------------------Searching------------------"
 set hlsearch
 set incsearch
+set ignorecase
 
 "------------------Mappings------------------"
 "Make it easy to edit the Vimrc file."
@@ -15,7 +20,7 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 "Add simple highlight removal - Leader, Leertaste"
 nmap <Leader><space> :nohlsearch<cr>
 
-"Einfaches Modus switchen - jj"
+"Einfaches Modus switchen - jk"
 imap jk <Esc>
 
 "Char am Ende der Zeile einfügen - öö"
@@ -26,8 +31,6 @@ function! Ender()
   normal `e
 endfunction
 
-"Suche ignoriert Groß/Kleinschreibung"
-:set ignorecase
 
 "Cursor Mode Change bei verschiedenen Modi"
 if has("autocmd")
@@ -47,3 +50,5 @@ augroup autosourcing
 	autocmd!
 	autocmd BufWritePost .vimrc source %
 augroup END
+
+set clipboard=unnamed

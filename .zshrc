@@ -58,6 +58,16 @@ function detach() {
     $* </dev/null &>/dev/null &
 }
 
+function explain() {
+	if [ "$#" -eq 0 ]; then
+		while read "?Command: " cmd; do
+		curl -Gs "https://www.mankier.com/api/explain/?cols="$(tput cols) --data-urlencode "q=$cmd"
+	done
+	else
+		curl -Gs "https://www.mankier.com/api/explain/?cols="$(tput cols) --data-urlencode "q=$*"
+	fi
+}
+
 function shop() {
     if [ $(whoami) = "vagrant" ]
     then
@@ -73,7 +83,6 @@ alias dev='ssh dev'
 alias devpl='git checkout develop && git pull && git checkout -'
 alias devmg='git checkout develop && git pull && git checkout - && git merge develop'
 alias devs="ssh dev -t 'exec $SHELL -l -c \"cd shop;exec $SHELL\"'" 
-alias gbb='git branch -b'
 alias grl="git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print \$3 }' | awk ' !x[\$0]++' | head -n5"
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
