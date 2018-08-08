@@ -77,5 +77,5 @@ nnoremap '; A;<Esc>
 inoremap '; <Esc>A;<Esc>
 
 " acejump with s, line mode with S
-map s :action AceAction<CR>
-map S :action AceLineAction<CR>
+map S :action AceAction<CR>
+

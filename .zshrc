@@ -78,6 +78,7 @@ function shop() {
 }
 
 alias ci='composer install'
+alias ciig='composer install --ignore-platform-reqs'
 alias compose='ssh dev "cd shop; composer install;"'
 alias dev='ssh dev'
 alias devpl='git checkout develop && git pull && git checkout -'
