@@ -13,8 +13,8 @@ set incsearch
 " ignores case by default in searc
 set ignorecase
 
-" makes kebab-case count as word
-set iskeyword+=-
+" makes $var count as word
+set iskeyword+=$
 
 " keep 5 lines between cursor and edge of screen
 set scrolloff=5
@@ -78,4 +78,4 @@ inoremap '; <Esc>A;<Esc>
 
 " acejump with s, line mode with S
 map S :action AceAction<CR>
-
+map s :action AceWordAction<CR>

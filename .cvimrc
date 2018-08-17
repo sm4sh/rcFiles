@@ -3,7 +3,6 @@ let barpostition = "bottom"
 let mapleader = ","
 let hintcharacters = "qwertzuiopasdfghjklyxcvbnm"
 set smoothscroll
-set noautofocus
 set autohidecursor
 set completeonopen
 map F createActiveTabbedHint

@@ -8,3 +8,4 @@ git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
 sh ~/src/fonts/install.sh
 sh ~/src/rcFiles/create_links.sh
+gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'bastian'), ('xkb', 'bastian')]"
