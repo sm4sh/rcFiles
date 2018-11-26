@@ -1,17 +1,8 @@
 syntax enable
 
 set backspace=indent,eol,start
-set clipboard=unnamed
-let mapleader = ','
 set number
 set relativenumber
-set iskeyword+=-
-set scrolloff=5
-
-"------------------Searching------------------"
-set hlsearch
-set incsearch
-set ignorecase
 
 "------------------Mappings------------------"
 "Make it easy to edit the Vimrc file."
@@ -22,15 +13,6 @@ nmap <Leader><space> :nohlsearch<cr>
 
 "Einfaches Modus switchen - jk"
 imap jk <Esc>
-
-"Char am Ende der Zeile einfügen - öö"
-imap <silent>öö <Esc>v`^me<Esc>gi<C-o>:call Ender()<CR>
-function! Ender()
-  let endchar = nr2char(getchar())
-  execute "normal \<End>a".endchar
-  normal `e
-endfunction
-
 
 "Cursor Mode Change bei verschiedenen Modi"
 if has("autocmd")
@@ -51,4 +33,57 @@ augroup autosourcing
 	autocmd BufWritePost .vimrc source %
 augroup END
 
+" paste buffer is normal buffer on linux "
 set clipboard=unnamed
+
+" highlight search results "
+set hlsearch
+
+" searching starts immediately when typing "
+set incsearch
+
+" ignores case by default in search "
+set ignorecase
+
+" doesn't ignore case when UPPERCASE letters exist in search "
+set smartcase
+
+" makes $var count as word "
+set iskeyword+=$
+
+" keep 5 lines between cursor and edge of screen "
+set scrolloff=5
+
+" keep longer history "
+set history=1000
+
+" well duh "
+"let mapleader = ','
+map <Space> <Leader>
+
+" shorter timeout between compound commands "
+set timeoutlen=150
+
+" easy removal of searchhighlighting "
+nnoremap ,<Space> :nohlsearch<Cr>
+
+" Put search results in the middle of the screen "
+nnoremap n nzz
+nnoremap N Nzz
+
+" easy tab switching via H and L "
+nmap H gT
+nmap L gt
+
+" append ; at the end of the line via <Leader>; "
+nnoremap <Leader>; A;<Esc>
+inoremap <Leader>; <Esc>A;<Esc>
+
+"delete whole function with dm (only working in php class files - experimental)"
+nnoremap dm [mV/^\s}<CR>d:nohlsearch<CR>
+
+"Y to yank until end of line "
+map Y y$
+
+" jump to selection begin when yanking, not first yanked char in buffer "
+vnoremap y mxy`x
