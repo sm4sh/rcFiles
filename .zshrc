@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/texlive/2017/bin/x86_64-linux:
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/texlive/2017/bin/x86_64-linux:/snap/bin:
 export HM_APPLICATION_ENV=development
 export VISUAL=vim
 export EDITOR=$VISUAL
@@ -9,7 +9,7 @@ export DISABLE_UPDATE_PROMPT=true
 export ZSH=~/.oh-my-zsh
 
 # Fzf vars
-export FZF_COMPLETION_TRIGGER='.,'
+export FZF_COMPLETION_TRIGGER='**'
 export FZF_DEFAULT_OPTS="--height 20% --select-1"
 
 ZSH_THEME="powerlevel9k/powerlevel9k"
@@ -38,7 +38,7 @@ HYPHEN_INSENSITIVE="true"
 HIST_STAMPS="dd.mm"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(sudo git colored-man-pages)
+plugins=(sudo git colored-man-pages kubectl)
 
 source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -68,6 +68,11 @@ function explain() {
 	fi
 }
 
+function mkcdir () {
+	mkdir -p -- "$1" &&
+		cd -P -- "$1"
+}
+
 function shop() {
     if [ $(whoami) = "vagrant" ]
     then
@@ -79,16 +84,22 @@ function shop() {
 
 alias ci='composer install'
 alias ciig='composer install --ignore-platform-reqs'
+alias clip='xsel -ib'
 alias compose='ssh dev "cd shop; composer install;"'
 alias dev='ssh dev'
 alias devpl='git checkout develop && git pull && git checkout -'
 alias devmg='git checkout develop && git pull && git checkout - && git merge develop'
 alias devs="ssh dev -t 'exec $SHELL -l -c \"cd shop;exec $SHELL\"'" 
+alias gaf="git fza"
 alias grl="git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print \$3 }' | awk ' !x[\$0]++' | head -n5"
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
+alias mk='minikube'
+alias mkdir='mkdir -p'
 alias ping8='ping 8.8.8.8'
+alias rc='vim ~/.zshrc'
 alias speedtest='speedtest --bytes'
+alias sudo='sudo '
 alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal:.*finished/${BLACK} ${BG_GREEN}&${NC}/i"' 
 alias paste="curl -F 'f:1=<-' ix.io"
 alias wetter='curl --header 'Accept-Language:de-DE' wttr.in'

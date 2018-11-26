@@ -1,44 +1,48 @@
-" paste buffer is normal buffer on linux
+" paste buffer is normal buffer on linux "
 set clipboard=unnamed
 
-" enable surround plugin for ideavim
+" enable surround plugin for ideavim "
 set surround
 
-" highlight search results
+" highlight search results "
 set hlsearch
 
-" searching starts immediately when typing
+" searching starts immediately when typing "
 set incsearch
 
-" ignores case by default in searc
+" ignores case by default in search "
 set ignorecase
 
-" makes $var count as word
+" doesn't ignore case when UPPERCASE letters exist in search "
+set smartcase
+
+" makes $var count as word "
 set iskeyword+=$
 
-" keep 5 lines between cursor and edge of screen
+" keep 5 lines between cursor and edge of screen "
 set scrolloff=5
 
-" keep longer history
+" keep longer history "
 set history=1000
 
-" hybrid line numbers
-set number
-set relativenumber
+" hybrid line numbers -- deactivated due to performance"
+"set number
+"set relativenumber
 
-" well duh
-let mapleader = ','
+" well duh "
+"let mapleader = ','
+map <Space> <Leader>
 
-" shorter timeout between compound commands
+" shorter timeout between compound commands "
 set timeoutlen=150
 
-" easy mode switching - jk"
+" easy mode switching - jk "
 imap jk <Esc>
 
-" easy removal of searchhighlighting
-nmap <Leader><space> :nohlsearch<cr>
+" easy removal of searchhighlighting "
+nnoremap ,<Space> :nohlsearch<Cr>
 
-" Replace all idea shortcuts with mapleader
+" Replace all idea shortcuts with mapleader "
 nmap <leader>a :action $SelectAll<CR>
 nmap <leader>b :action GotoDeclaration<CR>
 nmap <leader>c :action $Copy<CR>
@@ -64,18 +68,29 @@ nmap <leader>y :action EditorDeleteLine<CR>
 nmap <leader>[ :action EditorCodeBlockStart<CR>
 nmap <leader>] :action EditorCodeBlockEnd<CR>
 
-" Put search results in the middle of the screen
+" Put search results in the middle of the screen "
 nnoremap n nzz
 nnoremap N Nzz
 
-" easy tab switching via H and L
+" easy tab switching via H and L "
 nmap H gT
 nmap L gt
 
-" append ; at the end of the line via ';
+" append ; at the end of the line via '; "
 nnoremap '; A;<Esc>
 inoremap '; <Esc>A;<Esc>
 
-" acejump with s, line mode with S
-map S :action AceAction<CR>
-map s :action AceWordAction<CR>
+" acejump with s, word mode with S -- deactivated, using acejump-lite"
+"noremap s :action AceAction<CR>
+"noremap S :action AceWordAction<CR>
+noremap s :action emacsIDEAs.AceJump<CR>
+noremap S :action emacsIDEAs.AceJumpWord<CR>
+
+"delete whole function with dm (only working in php class files - experimental)"
+nnoremap dm [mV/^\s}<CR>d:nohlsearch<CR>
+
+"Y to yank until end of line "
+map Y y$
+
+" jump to selection begin when yanking, not first yanked char in buffer "
+vnoremap y mxy`x

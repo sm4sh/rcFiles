@@ -12,5 +12,7 @@ xkb_symbols "bastian" {
     key <AD07> { [ u, U, udiaeresis, Udiaeresis ] };
     key <AC02> { [ s, S, ssharp ] };
     key <AB06> { [ n, N, ntilde, Ntilde ] };
+    key <AD06> { [ y, Y ] };
+    key <AB01> { [ z, Z ] };
 };
 
