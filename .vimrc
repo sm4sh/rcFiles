@@ -4,6 +4,8 @@ set backspace=indent,eol,start
 set number
 set relativenumber
 
+set runtimepath^=~/.vim/plugin/EasyMotion.vim
+
 "------------------Mappings------------------"
 "Make it easy to edit the Vimrc file."
 nmap <Leader>ev :tabedit $MYVIMRC<cr>
@@ -58,7 +60,7 @@ set scrolloff=5
 set history=1000
 
 " well duh "
-"let mapleader = ','
+"let mapleader = ' '
 map <Space> <Leader>
 
 " shorter timeout between compound commands "
