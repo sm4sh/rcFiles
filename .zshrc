@@ -68,6 +68,20 @@ function explain() {
 	fi
 }
 
+function gcon() {
+    if [ $# -eq 0 ]; then
+        echo "Parameter missing"
+        exit 1
+    fi
+    BRANCH=$(grl | sed -e "${1}q;d")
+    git checkout $BRANCH
+}
+
+function grl() {
+    COUNT=${1:-5}
+    eval "git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print \$3 }' | awk ' !x[\$0]++' | head -n$COUNT" | awk '{printf("%2d: %s\n", NR,$0)}'
+}
+
 function mkcdir () {
 	mkdir -p -- "$1" &&
 		cd -P -- "$1"
@@ -82,6 +96,8 @@ function shop() {
     cd /home/bab/src/hitmeister-web
 }
 
+alias de='trans :de'
+alias en='trans :en'
 alias ci='composer install'
 alias ciig='composer install --ignore-platform-reqs'
 alias clip='xsel -ib'
@@ -91,7 +107,6 @@ alias devpl='git checkout develop && git pull && git checkout -'
 alias devmg='git checkout develop && git pull && git checkout - && git merge develop'
 alias devs="ssh dev -t 'exec $SHELL -l -c \"cd shop;exec $SHELL\"'" 
 alias gaf="git fza"
-alias grl="git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print \$3 }' | awk ' !x[\$0]++' | head -n5"
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
 alias mk='minikube'

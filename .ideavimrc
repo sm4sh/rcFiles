@@ -16,8 +16,8 @@ set ignorecase
 " doesn't ignore case when UPPERCASE letters exist in search "
 set smartcase
 
-" makes $var count as word "
-set iskeyword+=$
+" makes $var count as word " -- DISABLED
+" set iskeyword+=$
 
 " keep 5 lines between cursor and edge of screen "
 set scrolloff=5
@@ -94,3 +94,13 @@ map Y y$
 
 " jump to selection begin when yanking, not first yanked char in buffer "
 vnoremap y mxy`x
+
+" go to next / previous file or line "
+nnoremap <A-H> :action Back<CR>
+nnoremap <A-L> :action Forward<CR>
+nnoremap <M-H> :action Back<CR>
+nnoremap <M-L> :action Forward<CR>
+
+" jump to end of line via C-e"
+nnoremap <C-e> :action EditorLineEnd<CR>
+inoremap <C-e> <Esc>:action EditorLineEnd<CR>i
