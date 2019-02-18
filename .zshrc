@@ -73,13 +73,17 @@ function gcon() {
         echo "Parameter missing"
         exit 1
     fi
-    BRANCH=$(grl | sed -e "${1}q;d")
+    BRANCH=$(grln | sed -e "${1}q;d")
     git checkout $BRANCH
 }
 
-function grl() {
+function grln() {
     COUNT=${1:-5}
-    eval "git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print \$3 }' | awk ' !x[\$0]++' | head -n$COUNT" | awk '{printf("%2d: %s\n", NR,$0)}'
+    eval "git reflog | egrep -io \"moving from ([^[:space:]]+)\" | awk '{ print \$3 }' | awk ' !x[\$0]++' | head -n$COUNT"
+}
+
+function grl() {
+    grln $1 | awk '{printf("%2d: %s\n", NR,$0)}'
 }
 
 function mkcdir () {
