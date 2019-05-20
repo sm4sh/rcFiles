@@ -54,6 +54,11 @@ function ali() {
     alias | grep "$*"
 }
 
+function cheat() {
+	IFS='-';
+	curl https://cheat.sh/$*;
+}
+
 function detach() {
     $* </dev/null &>/dev/null &
 }
@@ -94,7 +99,7 @@ function mkcdir () {
 function shop() {
     if [ $(whoami) = "vagrant" ]
     then
-        cd /home/vagrant/shop
+        cd /hitmeister/shop/current/src/
         return 0
     fi
     cd /home/bab/src/hitmeister-web

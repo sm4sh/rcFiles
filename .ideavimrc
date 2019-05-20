@@ -76,6 +76,9 @@ nnoremap N Nzz
 nmap H gT
 nmap L gt
 
+" kill current tab "
+nmap gx :action CloseEditor<CR>
+
 " append ; at the end of the line via <Leader>; "
 nnoremap <Leader>; A;<Esc>
 inoremap <Leader>; <Esc>A;<Esc>
@@ -104,3 +107,6 @@ nnoremap <M-L> :action Forward<CR>
 " jump to end of line via C-e"
 nnoremap <C-e> :action EditorLineEnd<CR>
 inoremap <C-e> <Esc>:action EditorLineEnd<CR>i
+
+" use IntelliJ JoinLines because it's smart "
+nnoremap J :action EditorJoinLines<CR>
