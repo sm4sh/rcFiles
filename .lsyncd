@@ -2,6 +2,7 @@ settings {
    logfile = "/tmp/lsyncd.log",
    statusFile = "/tmp/lsyncd.status",
    nodaemon = true,
+   insist = true,
 }
 
 sync {
@@ -9,11 +10,15 @@ sync {
    source = "/home/bab/src/hitmeister-web/",
    targetdir = "/hitmeister/shop/current/src/",
    excludeFrom="/home/bab/.lsyncd.exclude",
-   host = "dev",
+   host = "vagrant@127.0.0.1",
    rsync = {
       archive = true,
       whole_file = true,
    },
+   ssh = {
+      port = 2222,
+      identityFile = "/home/bab/.ssh/vagrant_default"
+   },
    delay = 0.1,
-
+   delete = true,
 }

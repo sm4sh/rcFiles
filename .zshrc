@@ -20,6 +20,8 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
 POWERLEVEL9K_SHORTEN_DELIMITER=""
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
+#POWERLEVEL9K_VI_INSERT_MODE_STRING="INS"
+#POWERLEVEL9K_VI_COMMAND_MODE_STRING="NOR"
 #POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
@@ -38,7 +40,7 @@ HYPHEN_INSENSITIVE="true"
 HIST_STAMPS="dd.mm"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(sudo git colored-man-pages kubectl)
+plugins=(sudo git colored-man-pages vagrant)
 
 source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -116,6 +118,7 @@ alias devpl='git checkout develop && git pull && git checkout -'
 alias devmg='git checkout develop && git pull && git checkout - && git merge develop'
 alias devs="ssh dev -t 'exec $SHELL -l -c \"cd shop;exec $SHELL\"'" 
 alias gaf="git fza"
+alias gpdo="git push --delete origin"
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
 alias mk='minikube'
@@ -126,7 +129,14 @@ alias speedtest='speedtest --bytes'
 alias sudo='sudo '
 alias sync='unbuffer lsyncd ~/.lsyncd | sed -u "s/Normal:.*finished/${BLACK} ${BG_GREEN}&${NC}/i"' 
 alias paste="curl -F 'f:1=<-' ix.io"
+alias v='vagrant'
 alias wetter='curl --header 'Accept-Language:de-DE' wttr.in'
 
 #to be able to start custom commands after startup
 eval "$BASH_POST_RC"
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/home/bab/src/real-platform/.bin/google-cloud-sdk/path.zsh.inc' ]; then . '/home/bab/src/real-platform/.bin/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/home/bab/src/real-platform/.bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/bab/src/real-platform/.bin/google-cloud-sdk/completion.zsh.inc'; fi

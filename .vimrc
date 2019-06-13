@@ -1,10 +1,12 @@
+" plugin manager pathogen enable
+execute pathogen#infect()
+
+filetype plugin indent on
 syntax enable
 
 set backspace=indent,eol,start
 set number
 set relativenumber
-
-set runtimepath^=~/.vim/plugin/EasyMotion.vim
 
 "------------------Mappings------------------"
 "Make it easy to edit the Vimrc file."
@@ -36,7 +38,7 @@ augroup autosourcing
 augroup END
 
 " paste buffer is normal buffer on linux "
-set clipboard=unnamed
+set clipboard=unnamedplus
 
 " highlight search results "
 set hlsearch
@@ -89,3 +91,4 @@ map Y y$
 
 " jump to selection begin when yanking, not first yanked char in buffer "
 vnoremap y mxy`x
+
