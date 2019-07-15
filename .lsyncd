@@ -10,13 +10,13 @@ sync {
    source = "/home/bab/src/hitmeister-web/",
    targetdir = "/hitmeister/shop/current/src/",
    excludeFrom="/home/bab/.lsyncd.exclude",
-   host = "vagrant@127.0.0.1",
+   host = "vagrant@shop.real-dev.de",
    rsync = {
       archive = true,
       whole_file = true,
    },
    ssh = {
-      port = 2222,
+      port = 22,
       identityFile = "/home/bab/.ssh/vagrant_default"
    },
    delay = 0.1,

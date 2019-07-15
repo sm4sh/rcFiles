@@ -4,6 +4,8 @@ export VISUAL=vim
 export EDITOR=$VISUAL
 export TERM="xterm-256color"
 export DISABLE_UPDATE_PROMPT=true
+#faster switch to vi-mode
+export KEYTIMEOUT=8
 
 # Path to your oh-my-zsh installation.
 export ZSH=~/.oh-my-zsh
@@ -20,8 +22,8 @@ POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status)
 POWERLEVEL9K_SHORTEN_DIR_LENGTH=4
 POWERLEVEL9K_SHORTEN_DELIMITER=""
 POWERLEVEL9K_SHORTEN_STRATEGY="truncate_from_right"
-#POWERLEVEL9K_VI_INSERT_MODE_STRING="INS"
-#POWERLEVEL9K_VI_COMMAND_MODE_STRING="NOR"
+#POWERLEVEL9K_VI_INSERT_MODE_STRING="I"
+#POWERLEVEL9K_VI_COMMAND_MODE_STRING="N"
 #POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 
 # Uncomment the following line to use hyphen-insensitive completion. Case
@@ -40,7 +42,7 @@ HYPHEN_INSENSITIVE="true"
 HIST_STAMPS="dd.mm"
 
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(sudo git colored-man-pages vagrant)
+plugins=(sudo git colored-man-pages vagrant kubectl vi-mode z)
 
 source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -107,6 +109,23 @@ function shop() {
     cd /home/bab/src/hitmeister-web
 }
 
+precmd () {
+	# bar character as cursor
+	echo -ne "\e[5 q"
+}
+
+zle-keymap-select () {
+    if [ "$TERM" = "xterm-256color" ]; then
+        if [ $KEYMAP = vicmd ]; then
+            # the command mode for vi
+            echo -ne "\e[2 q"
+        else
+            # the insert mode for vi
+            echo -ne "\e[5 q"
+        fi
+    fi
+}
+
 alias de='trans :de'
 alias en='trans :en'
 alias ci='composer install'
@@ -121,6 +140,7 @@ alias gaf="git fza"
 alias gpdo="git push --delete origin"
 alias doch='sudo $(fc -ln -1)'
 alias inst='sudo apt-get install'
+alias l='ls -halFG'
 alias mk='minikube'
 alias mkdir='mkdir -p'
 alias ping8='ping 8.8.8.8'
@@ -132,11 +152,17 @@ alias paste="curl -F 'f:1=<-' ix.io"
 alias v='vagrant'
 alias wetter='curl --header 'Accept-Language:de-DE' wttr.in'
 
-#to be able to start custom commands after startup
-eval "$BASH_POST_RC"
+bindkey -v '^K' kill-line
+bindkey -v '^U' kill-whole-line
+bindkey -v 'jk' vi-cmd-mode
+bindkey -r '^['
+bindkey -v '^[^[' sudo-command-line
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/home/bab/src/real-platform/.bin/google-cloud-sdk/path.zsh.inc' ]; then . '/home/bab/src/real-platform/.bin/google-cloud-sdk/path.zsh.inc'; fi
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/bab/src/real-platform/.bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/bab/src/real-platform/.bin/google-cloud-sdk/completion.zsh.inc'; fi
+
+# Platform binaries
+export PATH=/home/bab/src/real-platform/.bin:$PATH
