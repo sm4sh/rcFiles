@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="@localhost" uuid="47c1aff9-981c-439b-b922-e6b663bcaec5">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0.0" />
+      <introspection-schemas>*:customer_watchdog</introspection-schemas>
+    </data-source>
+    <data-source name="38 @real-dev" uuid="1d98aed7-3a5a-45eb-8d0d-e44b10005404">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" exact-version="0.0" />
+    </data-source>
+  </component>
+</project>

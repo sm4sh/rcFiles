@@ -1,7 +1,5 @@
-" plugin manager pathogen enable
-execute pathogen#infect()
-
-filetype plugin indent on
+"this wraps git commit messages, fuck that
+"" filetype plugin indent on
 syntax enable
 
 set backspace=indent,eol,start
@@ -51,9 +49,6 @@ set ignorecase
 
 " doesn't ignore case when UPPERCASE letters exist in search "
 set smartcase
-
-" makes $var count as word "
-set iskeyword+=$
 
 " keep 5 lines between cursor and edge of screen "
 set scrolloff=5

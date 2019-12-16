@@ -1,0 +1,1635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="ANALYZE_TEST_SOURCES" value="false" />
+    <option name="SCOPE_TYPE" value="3" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8d1807a0-b6c7-4a73-946b-ccf686c5fa31" name="Default" comment="さn">
+      <change afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/app/Http/Request.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/resources/openapi/generics/Error.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/resources/openapi/specification.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/resources/openapi/tables/EnrichmentRule.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/app/Http/Controllers/RestControllerAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/app/Http/Controllers/RestControllerAbstract.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/composer.lock" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE" updatePackages="false">
+    <executablePath>/usr/bin/composer</executablePath>
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="../../src/hitmeister-web/shop/storefront/tests/phpunit-full-coverage.xml" NAME="phpunit-full-coverage.xml" MODIFIED="1516882736020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/hitmeister_web$GeneratorTest.coverage" NAME="GeneratorTest Coverage Results" MODIFIED="1516887759240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="../../src/hitmeister-web/shop/storefront/tests/phpunit-coverage.xml" NAME="phpunit-coverage.xml" MODIFIED="1516882736020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/hitmeister_web$CreatorTest_test_createCreditFromBruttoBooking_WhenErrorVatValueInvalid.xml" NAME="CreatorTest.test_createCreditFromBruttoBooking_WhenErrorVatValueInvalid Coverage Results" MODIFIED="1549360376298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/hitmeister_web$Cms__1_.coverage" NAME="Cms (1) Coverage Results" MODIFIED="1516891183832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/hitmeister_web$Cms.coverage" NAME="Cms Coverage Results" MODIFIED="1516891594910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myAutoScrollToSource" value="true" />
+    <option name="myAutoScrollFromSource" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="hitmeister-web">
+      <favorite_root url="file://$PROJECT_DIR$/config/app/config_development_and_test.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+    </favorites_list>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/library/Pds/MessageQueue/QueueManager/Imports/ReloadBrokenPictures.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="81" selection-start-line="81" selection-end-line="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/library/Pds/MessageQueue/QueueManager/Item/EnrichItem.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1190">
+              <caret line="85" column="80" selection-start-line="85" selection-start-column="80" selection-end-line="85" selection-end-column="80" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver02/pds.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver01/pds.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="686">
+              <caret line="49" column="102" selection-start-line="49" selection-start-column="102" selection-end-line="49" selection-end-column="102" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/library/Pds/Enrich/UpdateFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/RabbitMQ/Driver.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3318">
+              <caret line="237" column="20" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver03/pds.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver08/pds.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver07/pds.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="546">
+              <caret line="44" selection-start-line="44" selection-end-line="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/library/Pds/DataCollectors/Seller.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5950">
+              <caret line="425" selection-start-line="425" selection-end-line="425" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/app/parameters_development.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/console/BuildApplication/Command/Api/GenerateCommand.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="770">
+              <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/shop/library/Category/Editor.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1120">
+              <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/shop/library/Category/Editor/InputValidator.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/app/message_queue.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3500">
+              <caret line="250" selection-start-line="250" selection-end-line="250" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package_json" />
+        <option value="JavaScript File" />
+        <option value="SCSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>pds_recommendations_generic_service_url_customer-association</find>
+      <find>Recomme</find>
+      <find>pds_recommendations_category_service_base_uri</find>
+      <find>-&gt;request(</find>
+      <find>CategoryDecider</find>
+      <find>deskriptor_shop</find>
+      <find>deskriptor_base_url</find>
+      <find>deskriptor</find>
+      <find>Verifizierter Kauf</find>
+      <find>description-item-conta</find>
+      <find>descItemContainer.style.opacity = '1';</find>
+      <find>jQuery</find>
+      <find>isvisible</find>
+      <find>isElementFullyVisible</find>
+      <find>throttle</find>
+      <find>has_seen_recommender_on_cart_thank_you_page</find>
+      <find>Sie konnten leider nicht eingeloggt werden, bitte überprüfen Sie</find>
+      <find>handle-shared-value</find>
+      <find>valueKey</find>
+      <find>valueKey_value</find>
+      <find>attribute-suggestions</find>
+      <find>EnrichItemExtraSharedSetValueItems</find>
+      <find>clientVars</find>
+      <find>PageInfo()-&gt;create</find>
+      <find>ImportsReloadBrokenPictures</find>
+      <find>Broken picture:</find>
+      <find>ReloadBrokenPictures</find>
+      <find>mports_reload_broken_pictures</find>
+      <find>QueueManager</find>
+      <find>ReloadBroken</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Exception</replace>
+      <replace>\Exception</replace>
+      <replace>/</replace>
+      <replace>string $wrapperClasses = ''</replace>
+      <replace>$isBestseller</replace>
+      <replace />
+      <replace>&quot;\n&quot;</replace>
+      <replace>descItemContainer.classList.remove('deskriptor-active');</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/shop/storefront/modules/oscm/controllers</dir>
+      <dir>$PROJECT_DIR$/shop</dir>
+      <dir>$PROJECT_DIR$/shop/storefront/modules</dir>
+      <dir>$PROJECT_DIR$/vendor</dir>
+      <dir>$PROJECT_DIR$/config/app/</dir>
+      <dir>$PROJECT_DIR$/config/app/services/pds</dir>
+      <dir>$PROJECT_DIR$/cli/crontab</dir>
+      <dir>$PROJECT_DIR$/shop/orm/Model/Item</dir>
+      <dir>$PROJECT_DIR$/dev</dir>
+      <dir>$PROJECT_DIR$/vendor/hitmeister/sfm</dir>
+      <dir>$PROJECT_DIR$/shop/frontend/vendor</dir>
+      <dir>$PROJECT_DIR$/dev/coding_style/codesniffer/Hitmeister/Sniffs/Tests</dir>
+      <dir>$PROJECT_DIR$/db/migrations/hm_live</dir>
+      <dir>$PROJECT_DIR$/shop/library</dir>
+      <dir>$PROJECT_DIR$/shop/storefront/modules/admin/views/scripts/data-import-check/partials</dir>
+      <dir>$PROJECT_DIR$/../real-platform/</dir>
+      <dir>$PROJECT_DIR$/../real-platform/services/product-discovery/product-metrics-calculator</dir>
+      <dir>$PROJECT_DIR$</dir>
+      <dir>$PROJECT_DIR$/shop/storefront/modules/admin/views/javascripts/itemsreview</dir>
+      <dir>$PROJECT_DIR$/</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="DEV-8810-clean-up-after-oscm-changes" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="develop" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/shop/orm/Model/Item/ZombieMapper.php" />
+        <option value="$PROJECT_DIR$/shop/api/library/API/Helper/Input.php" />
+        <option value="$PROJECT_DIR$/shop/api/library/API/Helper/Output.php" />
+        <option value="$PROJECT_DIR$/shop/orm/Model/Item/Entity.php" />
+        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Ean/Generator/Zombie.php" />
+        <option value="$PROJECT_DIR$/shop/api/library/API/RestController/Entity.php" />
+        <option value="$PROJECT_DIR$/shop/orm/Model/Item/ZombieApiMapper.php" />
+        <option value="$PROJECT_DIR$/shop/api/application/configs/api.yaml" />
+        <option value="$PROJECT_DIR$/shop/orm/Model/Item/Mapper.php" />
+        <option value="$PROJECT_DIR$/shop/api/library/API/Wrapper.php" />
+        <option value="$PROJECT_DIR$/shop/library/Api/PushNotifications.php" />
+        <option value="$PROJECT_DIR$/shop/storefront/library/Controller/Plugin/DefaultAction.php" />
+        <option value="$PROJECT_DIR$/config/app/services/pds/enrich_category_decider.yml" />
+        <option value="$PROJECT_DIR$/vendor/aws/aws-sdk-php/src/S3/ObjectUploader.php" />
+        <option value="$PROJECT_DIR$/vendor/aws/aws-sdk-php/src/S3/S3ClientTrait.php" />
+        <option value="$PROJECT_DIR$/console/HmApplication/Command/Pds/CategoryDecider/RetrainCommand.php" />
+        <option value="$PROJECT_DIR$/shop/storefront/public/static/js/main/hm/Tracking/Product.js" />
+        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Deskriptor/Client.php" />
+        <option value="$PROJECT_DIR$/shop/storefront/public/dev.php" />
+        <option value="$PROJECT_DIR$/dev/pds/martian-alert.sh" />
+        <option value="$PROJECT_DIR$/shop/api/application/modules/items/controllers/EntityController.php" />
+        <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
+        <option value="$PROJECT_DIR$/config/app/config_production.yml" />
+        <option value="$PROJECT_DIR$/config/app/config_development.yml" />
+        <option value="$PROJECT_DIR$/config/app/services/pds/item.yml" />
+        <option value="$PROJECT_DIR$/config/app/config_test.yml" />
+        <option value="$PROJECT_DIR$/config/app/parameters_production.yml.dist" />
+        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Blacklisting/ItemUpdater.php" />
+        <option value="$PROJECT_DIR$/shop/orm/Service/Item.php" />
+        <option value="$PROJECT_DIR$/config/app/parameters_staging.yml.dist" />
+        <option value="$PROJECT_DIR$/config/app/parameters_development.yml.dist" />
+        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Deskriptor/Exception.php" />
+        <option value="$PROJECT_DIR$/tests/Unit/Pds/Item/DeskriptorTest.php" />
+        <option value="$PROJECT_DIR$/shop/storefront/modules/item/views/scripts/index/index.phtml" />
+        <option value="$PROJECT_DIR$/shop/storefront/public/static/css/storefront/php-controllers/item/index/_index.scss" />
+        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Deskriptor.php" />
+        <option value="$PROJECT_DIR$/shop/storefront/modules/admin/controllers/LoginController.php" />
+        <option value="$PROJECT_DIR$/shop/storefront/modules/admin/controllers/SharedSetReviewController.php" />
+        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver06/pds.txt" />
+        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver05/pds.txt" />
+        <option value="$PROJECT_DIR$/console/HmApplication/Command/Pds/CategoryDecider/CategoryRdsExportCommand.php" />
+        <option value="$PROJECT_DIR$/shop/library/Pds/Enrich/Consumer/Abstract.php" />
+        <option value="$PROJECT_DIR$/shop/storefront/modules/item/views/javascripts/index/index.js" />
+        <option value="$PROJECT_DIR$/shop/storefront/modules/item/controllers/IndexController.php" />
+        <option value="$PROJECT_DIR$/config/app/parameters_development.yml" />
+        <option value="$PROJECT_DIR$/console/BuildApplication/Command/Api/GenerateCommand.php" />
+        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver08/pds.txt" />
+        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver07/pds.txt" />
+        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver03/pds.txt" />
+        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver02/pds.txt" />
+        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver01/pds.txt" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="PhpDebugGeneral" notify_if_session_was_finished_without_being_paused="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="shop.real-dev.de" id="171164ef-b328-4524-826f-a6d1cb3d322a" name="localbox">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/hitmeister/shop/current/src" />
+        </path_mappings>
+      </server>
+      <server host="_" id="74ba9620-3b3d-4a15-896c-8990828bc9f8" name="_" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/hitmeister/shop/current/src" />
+          <mapping local-root="$PROJECT_DIR$/shop/storefront/public" remote-root="/hitmeister/shop/current/src/shop/storefront/public" />
+        </path_mappings>
+      </server>
+      <server host="_" id="e8727486-5d15-4bb9-8b9f-c05c8ea6b582" name="ubuntu-xenial" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/hitmeister/shop/current/src" />
+          <mapping local-root="$PROJECT_DIR$/shop/storefront/public" remote-root="/hitmeister/shop/current/src/shop/storefront/public" />
+        </path_mappings>
+      </server>
+      <server host="_" id="7d8a154b-a931-4d04-a205-100283910c2a" name="bastian-boehne.real-dev.de" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/home/bab/src/hitmeister-web" />
+          <mapping local-root="$PROJECT_DIR$/shop/storefront/public" remote-root="/hitmeister/shop/current/src/shop/storefront/public" />
+        </path_mappings>
+      </server>
+      <server host="_" id="6126abc0-914e-4beb-a134-96b4b84625e2" name="shop.real-dev.de" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="/hitmeister/shop/current/src" />
+          <mapping local-root="$PROJECT_DIR$/shop/storefront/public" remote-root="/hitmeister/shop/current/src/shop/storefront/public" />
+        </path_mappings>
+      </server>
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" deployment_server_id="149deaf4-5f40-4928-ba42-b1418279aba3" path_to_validation_script="$PROJECT_DIR$/shop/storefront/public" selected_validation_type="REMOTE" web_path_to_validation_script="http://127.0.0.1/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="4">
+    <option name="x" value="3201" />
+    <option name="y" value="27" />
+    <option name="width" value="1249" />
+    <option name="height" value="1413" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <sortByType ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hitmeister-web" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hitmeister-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SearchEverywhereHistoryKey" value="services.&#9;FILE&#9;file:///home/bab/src/hitmeister-web/config/experimental/services.yml&#10;Newslette&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/MessageQueue/QueueManager/NewsletterSignup.php&#10;signup&#9;null&#9;null&#10;index&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/controllers/IndexController.php&#10;stage&#9;null&#9;null&#10;stage.ph&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/stage.phtml&#10;stage.pht&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/stage.phtml&#10;produ&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views/scripts/index/product-slider.phtml&#10;rec&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/controllers/RecommendationsController.php&#10;produc&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views/scripts/recommendations/product-slider.phtml&#10;bannerhandlerHo&#9;null&#9;null&#10;paymentcallb&#9;null&#9;null&#10;csv&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/tests/functional/library/Hitmeister/HSI/Formatter/csv&#10;csvexporter&#9;FILE&#9;file:///home/bab/src/hitmeister-web/library/Hitmeister/CSVExporter.php&#10;csvimport&#9;FILE&#9;file:///home/bab/src/hitmeister-web/library/Hitmeister/PageInfo/CsvImporter.php&#10;csvhelper&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/Result/Hitmeister_PageInfo_CsvHelper&#10;sw&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/public/static/js/components/swiper.js&#10;clientwidget_storefront item&#9;null&#9;null&#10;item-c&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views/scripts/recommendations/item-carousel.phtml&#10;pro&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views/scripts/recommendations/product-slider.phtml&#10;Deal&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/Oscm/Banner/Container/Homepage/Deal.php&#10;banne.js&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/public/static/js/main/hm/Tracking/Banner.js&#10;layout-real\&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/layout-real-account.phtml&#10;.htaccess&#9;FILE&#9;file:///home/bab/src/hitmeister-web/vendor/real-digital/frontend-core/styleguide/public/.htaccess&#10;banner&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/banner-section.phtml&#10;default/index/index&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views/scripts/index/index.phtml&#10;product-sli&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/product-slider-top.phtml&#10;mailingcontroller&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/admin/controllers/MailingController.php&#10;abstractpro&#9;null&#9;null&#10;item-caro&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views/scripts/recommendations/item-carousel.phtml&#10;stage.&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/stage.phtml&#10;eventview&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/library/Application/EventView.php&#10;default/view/&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views&#10;item/views/&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views&#10;index/index.phtml&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views/scripts/index/index.phtml&#10;clientwidget st&#9;null&#9;null&#10;contain&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/Oscm/Banner/ContainerFactory.php&#10;serv&#9;FILE&#9;file:///home/bab/src/hitmeister-web/config/experimental/services.yml&#10;bannersystem.scss&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/public/static/css/shared/frontend-core/components/_bannersystem.scss&#10;banner.scss&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/public/static/css/shared/frontend-core/components/banner-system/_banners.scss&#10;adsbanner\&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/orm/Model/AdsBanner&#10;containerfa&#9;null&#9;null&#10;bannerhandler&#9;null&#9;null&#10;default/index/inde&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views/scripts/index/index.phtml&#10;customertest&#9;null&#9;null&#10;entityeventdata&#9;null&#9;null&#10;newsletter&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/MessageQueue/QueueManager/NewsletterSignup.php&#10;hitmeister_http_&#9;null&#9;null&#10;pageinfocsv&#9;null&#9;null&#10;queue&#9;FILE&#9;file:///home/bab/src/hitmeister-web/config/experimental/message_queue.yml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/pdepend/pdepend/build.properties&#10;/home/bab/src/hitmeister-web/vendor/zendframework/zendframework1/library/Zend/Form.php&#10;/home/bab/src/hitmeister-web/vendor/symfony/dependency-injection/Dumper/PhpDumper.php&#10;/home/bab/src/hitmeister-web/vendor/monolog/monolog/src/Monolog/Logger.php&#10;/home/bab/src/hitmeister-web/config/app/parameters_development.yml&#10;/home/bab/src/hitmeister-web/vendor/symfony/dependency-injection/Definition.php&#10;/home/bab/src/hitmeister-web/vendor/phpunit/phpunit/src/Framework/Assert.php&#10;/home/bab/src/hitmeister-web/vendor/goaop/framework/src/Instrument/ClassLoading/AopComposerLoader.php&#10;true&#10;/home/bab/src/hitmeister-web/vendor/zendframework/zendframework1/library/Zend/Http/Client.php&#10;/home/bab/src/hitmeister-web/shop/library/ResultGenerator/results.yml&#10;/home/bab/src/hitmeister-web/config/app/parameters.yml&#10;/home/bab/src/hitmeister-web/dev/dev.php" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit 6+" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="jsx.switch.disabled" value="true" />
+    <property name="last.edited.regexp" value="http://www.gppdle.de" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Unit/phpunit.xml.dist" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="$PROJECT_DIR$/node_modules/eslint" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="me.ihxq.acejump.lite.options.IdeaConfigurable" />
+    <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop/library/Pds/Item" />
+      <recent name="$PROJECT_DIR$/dev/martian" />
+      <recent name="$PROJECT_DIR$/shop/storefront/public" />
+      <recent name="$PROJECT_DIR$/console/HmApplication/Command/OneTime/resources/Pd492FindItemsForNonAssociatedEans" />
+      <recent name="$PROJECT_DIR$/../real-platform/services/product-discovery/product-metrics-calculator/src/lib/Metrics/src/Images/" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop/storefront/modules/admin/views/javascripts/item-move" />
+      <recent name="$PROJECT_DIR$/shop/storefront/modules/admin/views/javascripts" />
+      <recent name="$PROJECT_DIR$/shop/storefront/modules/admin/views/scripts/item-move" />
+      <recent name="$PROJECT_DIR$/shop/storefront/modules/admin/forms/ItemMove" />
+      <recent name="$PROJECT_DIR$/shop/storefront/modules/admin/views/scripts" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHPUnit.DeskriptorTest.test_summarise">
+    <configuration name="CreatorTest.test_createCreditFromBruttoBooking_WhenErrorVatValueInvalid" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <envs>
+          <env name="HM_APPLICATION_ENV" value="test" />
+        </envs>
+      </CommandLine>
+      <TestRunner class="integration\libs\SellerInvoiceLines\CreatorTest" file="$PROJECT_DIR$/shop/storefront/tests/integration/libs/SellerInvoiceLines/CreatorTest.php" method="test_createCreditFromBruttoBooking_WhenErrorVatValueInvalid" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DeclineActionTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <envs>
+          <env name="HM_APPLICATION_ENV" value="test" />
+        </envs>
+      </CommandLine>
+      <TestRunner class="Hm\Shop\Storefront\Tests\Unit\Libs\Pds\EnrichmentRule\DeclineActionTest" file="$PROJECT_DIR$/shop/storefront/tests/unit/libs/Pds/EnrichmentRule/DeclineActionTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DeskriptorTest.test_summarise" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <envs>
+          <env name="HM_APPLICATION_ENV" value="test" />
+        </envs>
+      </CommandLine>
+      <TestRunner class="DeskriptorTest" file="$PROJECT_DIR$/tests/Unit/Pds/Item/DeskriptorTest.php" method="test_summarise" scope="Method" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FinderTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <envs>
+          <env name="HM_APPLICATION_ENV" value="test" />
+        </envs>
+      </CommandLine>
+      <TestRunner class="Real\Tests\Unit\Item\FinderTest" configuration_file="$PROJECT_DIR$/tests/Unit/phpunit.xml.dist" file="$PROJECT_DIR$/tests/Unit/Item/FinderTest.php" scope="Class" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ReplacementTest (1)" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <CommandLine>
+        <envs>
+          <env name="HM_APPLICATION_ENV" value="test" />
+        </envs>
+      </CommandLine>
+      <TestRunner class="Hm\Shop\Storefront\Tests\Unit\Libs\Pds\EnrichmentRule\ReplacementTest" file="$PROJECT_DIR$/shop/storefront/tests/unit/libs/Pds/EnrichmentRule/ReplacementTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <CommandLine>
+        <envs>
+          <env name="HM_APPLICATION_ENV" value="test" />
+        </envs>
+      </CommandLine>
+      <TestRunner scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>/usr/bin/node</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="PHPUnit.CreatorTest.test_createCreditFromBruttoBooking_WhenErrorVatValueInvalid" />
+      <item itemvalue="PHPUnit.DeclineActionTest" />
+      <item itemvalue="PHPUnit.DeskriptorTest.test_summarise" />
+      <item itemvalue="PHPUnit.FinderTest" />
+      <item itemvalue="PHPUnit.ReplacementTest (1)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHPUnit.DeskriptorTest.test_summarise" />
+        <item itemvalue="PHPUnit.FinderTest" />
+        <item itemvalue="PHPUnit.DeclineActionTest" />
+        <item itemvalue="PHPUnit.ReplacementTest (1)" />
+        <item itemvalue="PHPUnit.CreatorTest.test_createCreditFromBruttoBooking_WhenErrorVatValueInvalid" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",Show Fields,Show Constants,ALPHA_COMPARATOR,SHOW_INHERITED" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d1807a0-b6c7-4a73-946b-ccf686c5fa31" name="Default" comment="" />
+      <created>1508428637258</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1508428637258</updated>
+    </task>
+    <task id="LOCAL-00064" summary="forgot to change all function calls">
+      <created>1517934606936</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1517934606936</updated>
+    </task>
+    <task id="LOCAL-00065" summary="readd renamed files to not delete them on pr">
+      <created>1517934974879</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1517934974879</updated>
+    </task>
+    <task id="LOCAL-00066" summary="delete old event">
+      <created>1517935242065</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1517935242065</updated>
+    </task>
+    <task id="LOCAL-00067" summary="added new path params">
+      <created>1517938277758</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1517938277758</updated>
+    </task>
+    <task id="LOCAL-00068" summary="add html comments for sensitive data that shouldn't go to contentsquare">
+      <created>1519831449534</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1519831449535</updated>
+    </task>
+    <task id="LOCAL-00069" summary="add html comments for sensitive data that shouldn't go to contentsquare">
+      <created>1519899791350</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1519899791351</updated>
+    </task>
+    <task id="LOCAL-00070" summary="changed the template help to german">
+      <created>1520341920791</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1520341920791</updated>
+    </task>
+    <task id="LOCAL-00071" summary="added new error on a malformed url and don't attempt to correct url">
+      <created>1520342017836</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1520342017836</updated>
+    </task>
+    <task id="LOCAL-00072" summary="refined regex to exclude ///campaigns.. links">
+      <created>1520344466314</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1520344466314</updated>
+    </task>
+    <task id="LOCAL-00073" summary="readded wrongly deleted empty lines">
+      <created>1520344585260</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1520344585260</updated>
+    </task>
+    <task id="LOCAL-00074" summary="fixed test and added new one to test malformed url condition">
+      <created>1520498581634</created>
+      <option name="number" value="00074" />
+      <option name="presentableId" value="LOCAL-00074" />
+      <option name="project" value="LOCAL" />
+      <updated>1520498581635</updated>
+    </task>
+    <task id="LOCAL-00075" summary="fixed regex to exclude http:/real.de">
+      <created>1520498606187</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1520498606187</updated>
+    </task>
+    <task id="LOCAL-00076" summary="less complex regex for clarity">
+      <created>1520510486470</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1520510486470</updated>
+    </task>
+    <task id="LOCAL-00077" summary="regex blocks urls like /google.com/ now">
+      <created>1520515183126</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1520515183126</updated>
+    </task>
+    <task id="LOCAL-00078" summary="added NewsletterSubscribe QueueManager">
+      <created>1521451735662</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1521451735663</updated>
+    </task>
+    <task id="LOCAL-00079" summary="added NewsletterSubscribe to message_queue.yml">
+      <created>1521451777383</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1521451777384</updated>
+    </task>
+    <task id="LOCAL-00080" summary="use less embarassing callback name">
+      <created>1521451821924</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1521451821924</updated>
+    </task>
+    <task id="LOCAL-00081" summary="added newsletter checkbox to checkout and a hidden input in the form">
+      <created>1521451964319</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1521451964319</updated>
+    </task>
+    <task id="LOCAL-00082" summary="function to fill hidden input of newsletter checkbox in the form">
+      <created>1521452139093</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1521452139093</updated>
+    </task>
+    <task id="LOCAL-00083" summary="adds a new Message to Newsletter when checkbox is selected">
+      <created>1521452371770</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1521452371770</updated>
+    </task>
+    <task id="LOCAL-00084" summary="checks for proper response now and some structure changes">
+      <created>1521468908743</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1521468908743</updated>
+    </task>
+    <task id="LOCAL-00085" summary="delete locationDomain param">
+      <created>1521471027186</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1521471027186</updated>
+    </task>
+    <task id="LOCAL-00086" summary="add tracking for newsletter signup">
+      <created>1521476771338</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1521476771338</updated>
+    </task>
+    <task id="LOCAL-00087" summary="add newslettersignup tracking to queuemanager only on success">
+      <created>1521535605016</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1521535605017</updated>
+    </task>
+    <task id="LOCAL-00088" summary="renamed to newslettersignup and put tracking in seperate function">
+      <created>1521542939956</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1521542939957</updated>
+    </task>
+    <task id="LOCAL-00089" summary="added crontab entry">
+      <created>1521542956451</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1521542956451</updated>
+    </task>
+    <task id="LOCAL-00090" summary="added crontab entry">
+      <created>1521548107669</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1521548107669</updated>
+    </task>
+    <task id="LOCAL-00091" summary="change js to work with changed markup">
+      <created>1523623729184</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1523623729185</updated>
+    </task>
+    <task id="LOCAL-00092" summary="include itemCarousel in productSlider to be able to stop rendering altogether">
+      <created>1523623871352</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1523623871352</updated>
+    </task>
+    <task id="LOCAL-00093" summary="add js_masked link param and rename type">
+      <created>1523626049344</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1523626049344</updated>
+    </task>
+    <task id="LOCAL-00094" summary="frontpage only needs one category">
+      <created>1523628097705</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1523628097705</updated>
+    </task>
+    <task id="LOCAL-00095" summary="change structure to allow wrapping divs">
+      <created>1523877984937</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1523877984938</updated>
+    </task>
+    <task id="LOCAL-00096" summary="change edit link to button input and add css">
+      <created>1523879123137</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1523879123138</updated>
+    </task>
+    <task id="LOCAL-00097" summary="redid the old render function, also add return type and tracking params">
+      <created>1523882499619</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1523882499619</updated>
+    </task>
+    <task id="LOCAL-00098" summary="dont add style tag if css is empty">
+      <created>1523885397126</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1523885397126</updated>
+    </task>
+    <task id="LOCAL-00099" summary="change banner section markup according to sabbel">
+      <created>1523886469362</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1523886469362</updated>
+    </task>
+    <task id="LOCAL-00100" summary="add brochure getter and use it in frontend">
+      <created>1523888182267</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1523888182268</updated>
+    </task>
+    <task id="LOCAL-00101" summary="add quick fix for deleted MrT">
+      <created>1523891510801</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1523891510801</updated>
+    </task>
+    <task id="LOCAL-00102" summary="make stage up to date">
+      <created>1523893024547</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1523893024547</updated>
+    </task>
+    <task id="LOCAL-00103" summary="fixed BannerHandler Tests and AdsBannerBuilder">
+      <created>1523965422109</created>
+      <option name="number" value="00103" />
+      <option name="presentableId" value="LOCAL-00103" />
+      <option name="project" value="LOCAL" />
+      <updated>1523965422110</updated>
+    </task>
+    <task id="LOCAL-00104" summary="remove hungarian notation, add exception message and correct positioning">
+      <created>1523966676995</created>
+      <option name="number" value="00104" />
+      <option name="presentableId" value="LOCAL-00104" />
+      <option name="project" value="LOCAL" />
+      <updated>1523966676995</updated>
+    </task>
+    <task id="LOCAL-00105" summary="add second teaser row">
+      <created>1523977250815</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1523977250815</updated>
+    </task>
+    <task id="LOCAL-00106" summary="disable error handling for the night not to disturb our devops guys">
+      <created>1523980555155</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1523980555155</updated>
+    </task>
+    <task id="LOCAL-00107" summary="use postDelete Event to delete Images and use mediaFs()">
+      <created>1524495181836</created>
+      <option name="number" value="00107" />
+      <option name="presentableId" value="LOCAL-00107" />
+      <option name="project" value="LOCAL" />
+      <updated>1524495181837</updated>
+    </task>
+    <task id="LOCAL-00108" summary="the whole left box is linked on bestseller now">
+      <created>1524755595412</created>
+      <option name="number" value="00108" />
+      <option name="presentableId" value="LOCAL-00108" />
+      <option name="project" value="LOCAL" />
+      <updated>1524755595413</updated>
+    </task>
+    <task id="LOCAL-00109" summary="prevent thrown exception from stopping code execution">
+      <created>1525685191804</created>
+      <option name="number" value="00109" />
+      <option name="presentableId" value="LOCAL-00109" />
+      <option name="project" value="LOCAL" />
+      <updated>1525685191805</updated>
+    </task>
+    <task id="LOCAL-00110" summary="wording changes">
+      <created>1525785731764</created>
+      <option name="number" value="00110" />
+      <option name="presentableId" value="LOCAL-00110" />
+      <option name="project" value="LOCAL" />
+      <updated>1525785731765</updated>
+    </task>
+    <task id="LOCAL-00111" summary="Merge branch 'develop' into DEV-9593-as-a-seller-my-legal-texts-are-&#10;&#10;# Conflicts:&#10;#&#9;shop/storefront/modules/item/controllers/SellershopController.php">
+      <created>1529924349458</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1529924349459</updated>
+    </task>
+    <task id="LOCAL-00112" summary="added type param handling and scroll to top behaviour for clicked tabs">
+      <created>1530549932586</created>
+      <option name="number" value="00112" />
+      <option name="presentableId" value="LOCAL-00112" />
+      <option name="project" value="LOCAL" />
+      <updated>1530549932587</updated>
+    </task>
+    <option name="localTasksCounter" value="113" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FinderTest - 2019.08.13 at 08h 40m 35s.xml">
+      <configuration name="FinderTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FinderTest - 2019.08.13 at 08h 52m 13s.xml">
+      <configuration name="FinderTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FinderTest - 2019.08.13 at 08h 53m 17s.xml">
+      <configuration name="FinderTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FinderTest - 2019.08.15 at 09h 19m 50s.xml">
+      <configuration name="FinderTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="FinderTest - 2019.08.16 at 14h 34m 22s.xml">
+      <configuration name="FinderTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DeskriptorTest_test_summarise - 2019.10.07 at 16h 46m 01s.xml">
+      <configuration name="DeskriptorTest.test_summarise" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DeskriptorTest_test_summarise - 2019.10.07 at 16h 48m 12s.xml">
+      <configuration name="DeskriptorTest.test_summarise" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DeskriptorTest_test_summarise - 2019.10.07 at 16h 48m 27s.xml">
+      <configuration name="DeskriptorTest.test_summarise" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DeskriptorTest_test_summarise - 2019.10.07 at 16h 49m 13s.xml">
+      <configuration name="DeskriptorTest.test_summarise" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="DeskriptorTest_test_summarise - 2019.10.07 at 16h 50m 25s.xml">
+      <configuration name="DeskriptorTest.test_summarise" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="3201" y="27" width="1249" height="1413" extended-state="4" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" x="3506" y="95" width="528" height="1321" id="Project" order="0" sideWeight="0.5365127" visible="true" weight="0.25940752" />
+      <window_info id="Structure" order="1" sideWeight="0.46348733" side_tool="true" weight="0.26241136" />
+      <window_info id="npm" order="2" sideWeight="0.5084388" side_tool="true" weight="0.13683373" />
+      <window_info id="Favorites" order="3" sideWeight="0.4487705" side_tool="true" weight="0.33307272" />
+      <window_info id="Gulp" order="4" sideWeight="0.53831774" side_tool="true" weight="0.18377088" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.5060827" visible="true" weight="0.3695976" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49204454" weight="0.35916543" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49085122" weight="0.29731745" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4947283" weight="0.31892696" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49959448" weight="0.32944834" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.328614" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4909285" weight="0.40039644" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3233979" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.08799403" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5091488" weight="0.34004474" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="14" weight="0.32928678" />
+      <window_info anchor="bottom" id="Docker" order="15" weight="0.32811335" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24941361" />
+      <window_info anchor="right" id="Key Promoter X" order="3" weight="0.32927817" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.22871046" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.32927817" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32927817" />
+      <window_info anchor="right" id="Terminal" order="7" weight="0.30389816" />
+      <window_info anchor="right" id="make" order="8" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" x="3506" y="95" width="528" height="1321" id="Project" order="0" sideWeight="0.5394933" visible="true" weight="0.18242188" />
+      <window_info id="Structure" order="1" sideWeight="0.4605067" side_tool="true" weight="0.37060204" />
+      <window_info id="npm" order="2" sideWeight="0.5084388" side_tool="true" weight="0.13683373" />
+      <window_info id="Favorites" order="3" sideWeight="0.4487705" side_tool="true" weight="0.33307272" />
+      <window_info id="Gulp" order="4" sideWeight="0.53831774" side_tool="true" weight="0.18377088" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.5060827" weight="0.37061894" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49204454" weight="0.35943326" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49085122" weight="0.29880774" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4947283" weight="0.31892696" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49959448" weight="0.32944834" />
+      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.328614" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4909285" weight="0.2637854" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3233979" />
+      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.08799403" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5091488" weight="0.3405365" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="14" weight="0.32928678" />
+      <window_info anchor="bottom" id="Docker" order="15" weight="0.32811335" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24941361" />
+      <window_info anchor="right" id="Key Promoter X" order="3" weight="0.32927817" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.22871046" />
+      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.32927817" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32927817" />
+      <window_info anchor="right" id="Terminal" order="7" weight="0.30389816" />
+      <window_info anchor="right" id="make" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/vendor/hitmeister/sfm" />
+      <path value="$PROJECT_DIR$/vendor/real-digital/nagios-probe" />
+    </ignored-roots>
+    <MESSAGE value="frontpage only needs one category" />
+    <MESSAGE value="change structure to allow wrapping divs" />
+    <MESSAGE value="change edit link to button input and add css" />
+    <MESSAGE value="redid the old render function, also add return type and tracking params" />
+    <MESSAGE value="dont add style tag if css is empty" />
+    <MESSAGE value="change banner section markup according to sabbel" />
+    <MESSAGE value="add brochure getter and use it in frontend" />
+    <MESSAGE value="add quick fix for deleted MrT" />
+    <MESSAGE value="make stage up to date" />
+    <MESSAGE value="fixed BannerHandler Tests and AdsBannerBuilder" />
+    <MESSAGE value="remove hungarian notation, add exception message and correct positioning" />
+    <MESSAGE value="add second teaser row" />
+    <MESSAGE value="disable error handling for the night not to disturb our devops guys" />
+    <MESSAGE value="use postDelete Event to delete Images and use mediaFs()" />
+    <MESSAGE value="the whole left box is linked on bestseller now" />
+    <MESSAGE value="prevent thrown exception from stopping code execution" />
+    <MESSAGE value="wording changes" />
+    <MESSAGE value="Merge develop into branch" />
+    <MESSAGE value="Merge branch 'develop' into DEV-9593-as-a-seller-my-legal-texts-are-&#10;&#10;# Conflicts:&#10;#&#9;shop/storefront/modules/item/controllers/SellershopController.php" />
+    <MESSAGE value="readded Bewertungsarchiv and morphed info and ratings panel to one" />
+    <MESSAGE value="added type param handling and scroll to top behaviour for clicked tabs" />
+    <MESSAGE value="Merged branch develop into DEV-9980-add-mabaya-cia-process" />
+    <MESSAGE value="add customernotesimport entity to db and sfm" />
+    <MESSAGE value="add customernotesimport to mysql and sfm" />
+    <MESSAGE value="add customernotesimport to db and sfm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add customernotesimport to db and sfm" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="507" height="462" key="Git.Branch.Popup" />
+    <state width="515" height="470" key="Git.Branch.Popup/1920.1080" />
+    <state width="513" height="468" key="Git.Branch.Popup/1920.1080/1920.1080" />
+    <state width="507" height="462" key="Git.Branch.Popup/2560.1440/1920.1080" />
+    <state width="515" height="470" key="Git.Branch.Popup@1920.1080" />
+    <state width="507" height="462" key="Git.Branch.Popup@2560.1440" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/shop/api/library/API/RestController/Entity.php</url>
+          <line>79</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/shop/storefront/modules/admin/controllers/SharedSetReviewController.php</url>
+          <line>231</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/library/shared/MessageQueue/AbstractQueueManager.php</url>
+          <line>59</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <breakpoint type="php-exception">
+          <properties name="Exception" />
+          <option name="timeStamp" value="5" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateCodeFragment">
+      <expression>
+        <expression-string>$row = fgetcsv($file, 1000, ',', '&quot;') !== false</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$consumer = $container-&gt;getDefinition(Consumer::class);</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$consumer = $container-&gt;getDefinition(Consumer::class);
+$consumer-&gt;setAbstract(false);</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$this-&gt;getMCAId($this-&gt;action, $this-&gt;controller, $this-&gt;module)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>$content === ''</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$preparedFile !== false</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>!is_null($preparedFile);</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$preparedFile !== null</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$progress &gt;= 17000000</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$progess &gt;= 17000000</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$progress &lt;= 17000000</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>gettype($class) == 'object'</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="setValue">
+      <expression>
+        <expression-string>0</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>&quot;&quot;</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>10000000</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>$this-&gt;view</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$urlSigner-&gt;createSignInLink()</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$this-&gt;getRequest()</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new \DateTime()</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$GLOBALS['IDE_EVAL_CACHE']['31e3195f-8fdd-45c5-a4eb-dcc345df7625']-&gt;</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$GLOBALS['IDE_EVAL_CACHE']['31e3195f-8fdd-45c5-a4eb-dcc345df7625']</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>json_decode($responseString, true)</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$this-&gt;influxWriter-&gt;push('deskriptor_shop_runtime', [], [$seconds], 1, new \DateTime())</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>$item-&gt;getDescriptions()-&gt;getSimple()</expression-string>
+        <language-id>PHP</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/shop/orm/Model/PageInfo/meta.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app/services/pds/message_queues/enrich_item.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app/services/pds/enrich.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app/services/pds/enrich_category_decider.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/Strategy/Advanced/RabbitMQ.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/Hits/Util/Uri.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Media/Utils/Image.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="99" column="43" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Attribute/AbstractValue.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/orm/Model/Attribute/Entity.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="364" column="20" selection-start-line="364" selection-start-column="20" selection-end-line="364" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Media/Utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="1056" column="9" selection-start-line="1056" selection-start-column="9" selection-end-line="1056" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Attribute/Value/Picture.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="430" column="8" selection-start-line="430" selection-start-column="8" selection-end-line="430" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app/config_development.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="211" column="36" selection-start-line="211" selection-start-column="36" selection-end-line="211" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app/parameters_development.yml.dist">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Media/Downloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="434">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="1245" column="20" selection-start-line="1245" selection-start-column="20" selection-end-line="1245" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/Strategy/AbstractStrategy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/AbstractQueueManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="150" column="15" selection-start-line="150" selection-start-column="15" selection-end-line="150" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/orm/Model/ImportFile/meta.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/Pds/Item/DeskriptorTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Item/Deskriptor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Pds/RawDatum/Seller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5782">
+          <caret line="413" column="1" selection-start-line="413" selection-start-column="1" selection-end-line="413" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/Strategy/AdvancedStrategy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/AbstractDriver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/storefront/modules/item/views/javascripts/index/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/storefront/modules/item/controllers/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="990" column="28" selection-start-line="990" selection-start-column="28" selection-end-line="990" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Enrich/Update.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="143" selection-start-line="143" selection-end-line="143" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/templates/enum_type.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/templates/locator.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/src/Engine.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/src/Factory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/templates/base_services_dao.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/SfmApplication/Application.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Pds/MessageQueue/QueueManager/Imports/ReloadBrokenPictures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Pds/MessageQueue/QueueManager/Item/EnrichItem.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1190">
+          <caret line="85" column="80" selection-start-line="85" selection-start-column="80" selection-end-line="85" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver02/pds.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Enrich/UpdateFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/RabbitMQ/Driver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3318">
+          <caret line="237" column="20" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver03/pds.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver08/pds.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver07/pds.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="44" selection-start-line="44" selection-end-line="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Pds/DataCollectors/Seller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5950">
+          <caret line="425" selection-start-line="425" selection-end-line="425" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app/parameters_development.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/console/BuildApplication/Command/Api/GenerateCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="770">
+          <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Category/Editor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1120">
+          <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/app/message_queue.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3500">
+          <caret line="250" selection-start-line="250" selection-end-line="250" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver01/pds.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="49" column="102" selection-start-line="49" selection-start-column="102" selection-end-line="49" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/shop/library/Category/Editor/InputValidator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <last-edited>platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

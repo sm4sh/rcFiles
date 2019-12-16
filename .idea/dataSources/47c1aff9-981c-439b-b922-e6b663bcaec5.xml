@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" dbms="MYSQL" family-id="MYSQL" format-version="4.14">
+    <root id="1"/>
+    <schema id="2" parent="1" name="customer_watchdog">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="exports"/>
+    <schema id="4" parent="1" name="hm_live"/>
+    <schema id="5" parent="1" name="hm_mms"/>
+    <schema id="6" parent="1" name="hm_queue"/>
+    <schema id="7" parent="1" name="hm_reports"/>
+    <schema id="8" parent="1" name="hm_units"/>
+    <schema id="9" parent="1" name="information_schema"/>
+    <schema id="10" parent="1" name="ipro_3"/>
+    <schema id="11" parent="1" name="mysql"/>
+    <schema id="12" parent="1" name="performance_schema"/>
+    <schema id="13" parent="1" name="pickup"/>
+    <schema id="14" parent="1" name="sys"/>
+    <table id="15" parent="2" name="customers_watchdog_actions"/>
+    <table id="16" parent="2" name="customers_watchdog_observations"/>
+    <table id="17" parent="2" name="migrations"/>
+    <table id="18" parent="2" name="watchdog_actions"/>
+    <table id="19" parent="2" name="watchdog_actions2observations"/>
+    <table id="20" parent="2" name="watchdog_actions_email_templates"/>
+    <table id="21" parent="2" name="watchdog_observers"/>
+    <column id="22" parent="15" name="id_customer_watchdog_action">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="23" parent="15" name="id_customer_watchdog_observation">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="24" parent="15" name="id_watchdog_action2observations">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="25" parent="15" name="state">
+      <Position>4</Position>
+      <DataType>enum(&apos;OPEN&apos;, &apos;NOT_POSSIBLE&apos;, &apos;TAKEN&apos;)|0e</DataType>
+    </column>
+    <column id="26" parent="15" name="earliest_execution_date">
+      <Position>5</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="27" parent="15" name="reason">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="28" parent="15" name="date_executed">
+      <Position>7</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <index id="29" parent="15" name="id_customer_watchdog_observation">
+      <ColNames>id_customer_watchdog_observation</ColNames>
+    </index>
+    <index id="30" parent="15" name="id_watchdog_action2observations">
+      <ColNames>id_watchdog_action2observations</ColNames>
+    </index>
+    <key id="31" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_customer_watchdog_action</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="32" parent="15" name="customers_watchdog_actions_ibfk_1">
+      <ColNames>id_customer_watchdog_observation</ColNames>
+      <RefSchemaName>customer_watchdog</RefSchemaName>
+      <RefTableName>customers_watchdog_observations</RefTableName>
+      <RefColNames>id_customer_watchdog_observation</RefColNames>
+    </foreign-key>
+    <foreign-key id="33" parent="15" name="customers_watchdog_actions_ibfk_2">
+      <ColNames>id_watchdog_action2observations</ColNames>
+      <RefSchemaName>customer_watchdog</RefSchemaName>
+      <RefTableName>watchdog_actions2observations</RefTableName>
+      <RefColNames>id_watchdog_action2observations</RefColNames>
+    </foreign-key>
+    <column id="34" parent="16" name="id_customer_watchdog_observation">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="35" parent="16" name="id_customer">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="36" parent="16" name="id_watchdog_observer">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="37" parent="16" name="date_inserted">
+      <Position>4</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="38" parent="16" name="date_occurence">
+      <Position>5</Position>
+      <DataType>timestamp|0s</DataType>
+    </column>
+    <column id="39" parent="16" name="params">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="40" parent="16" name="state">
+      <Position>7</Position>
+      <DataType>enum(&apos;NEW&apos;, &apos;SPOOLED&apos;)|0e</DataType>
+    </column>
+    <index id="41" parent="16" name="id_customer">
+      <ColNames>id_customer</ColNames>
+    </index>
+    <index id="42" parent="16" name="id_watchdog_observer">
+      <ColNames>id_watchdog_observer</ColNames>
+    </index>
+    <key id="43" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_customer_watchdog_observation</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="44" parent="16" name="customers_watchdog_observations_ibfk_1">
+      <ColNames>id_watchdog_observer</ColNames>
+      <RefSchemaName>customer_watchdog</RefSchemaName>
+      <RefTableName>watchdog_observers</RefTableName>
+      <RefColNames>id_watchdog_observer</RefColNames>
+    </foreign-key>
+    <column id="45" parent="17" name="version">
+      <Position>1</Position>
+      <DataType>bigint(14)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="17" name="migration_name">
+      <Position>2</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="47" parent="17" name="start_time">
+      <Position>3</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="48" parent="17" name="end_time">
+      <Position>4</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="49" parent="17" name="breakpoint">
+      <Position>5</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+    </column>
+    <column id="50" parent="18" name="id_watchdog_action">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="51" parent="18" name="class">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="52" parent="18" name="params">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="53" parent="18" name="name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="54" parent="18" name="description">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="55" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_watchdog_action</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="56" parent="19" name="id_watchdog_action2observations">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="57" parent="19" name="id_watchdog_action">
+      <Position>2</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="58" parent="19" name="id_watchdog_observer">
+      <Position>3</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="59" parent="19" name="delay">
+      <Position>4</Position>
+      <DataType>int(11)|0s</DataType>
+    </column>
+    <column id="60" parent="19" name="group_tags">
+      <Position>5</Position>
+      <DataType>varchar(200)|0s</DataType>
+    </column>
+    <column id="61" parent="19" name="params">
+      <Position>6</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="62" parent="19" name="stats">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="63" parent="19" name="is_active">
+      <Position>8</Position>
+      <DataType>enum(&apos;YES&apos;, &apos;NO&apos;)|0e</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;YES&apos;</DefaultExpression>
+    </column>
+    <index id="64" parent="19" name="id_watchdog_action">
+      <ColNames>id_watchdog_action</ColNames>
+    </index>
+    <index id="65" parent="19" name="id_watchdog_observer">
+      <ColNames>id_watchdog_observer</ColNames>
+    </index>
+    <key id="66" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_watchdog_action2observations</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="67" parent="19" name="watchdog_actions2observations_ibfk_1">
+      <ColNames>id_watchdog_action</ColNames>
+      <RefSchemaName>customer_watchdog</RefSchemaName>
+      <RefTableName>watchdog_actions</RefTableName>
+      <RefColNames>id_watchdog_action</RefColNames>
+    </foreign-key>
+    <foreign-key id="68" parent="19" name="watchdog_actions2observations_ibfk_2">
+      <ColNames>id_watchdog_observer</ColNames>
+      <RefSchemaName>customer_watchdog</RefSchemaName>
+      <RefTableName>watchdog_observers</RefTableName>
+      <RefColNames>id_watchdog_observer</RefColNames>
+    </foreign-key>
+    <column id="69" parent="20" name="id_watchdog_actions_email_template">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="70" parent="20" name="type">
+      <Position>2</Position>
+      <DataType>enum(&apos;header&apos;, &apos;footer&apos;, &apos;body&apos;, &apos;item_widget&apos;)|0e</DataType>
+    </column>
+    <column id="71" parent="20" name="mail_html">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="72" parent="20" name="mail_text">
+      <Position>4</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="73" parent="20" name="name_template">
+      <Position>5</Position>
+      <DataType>varchar(100)|0s</DataType>
+    </column>
+    <key id="74" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_watchdog_actions_email_template</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="75" parent="21" name="id_watchdog_observer">
+      <Position>1</Position>
+      <DataType>int(11)|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="76" parent="21" name="class">
+      <Position>2</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="77" parent="21" name="class_params">
+      <Position>3</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="78" parent="21" name="name">
+      <Position>4</Position>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <column id="79" parent="21" name="description">
+      <Position>5</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <column id="80" parent="21" name="date_lastcheck">
+      <Position>6</Position>
+      <DataType>datetime|0s</DataType>
+    </column>
+    <column id="81" parent="21" name="run_times">
+      <Position>7</Position>
+      <DataType>text|0s</DataType>
+    </column>
+    <key id="82" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id_watchdog_observer</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

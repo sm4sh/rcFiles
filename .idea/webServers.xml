@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="60215067-8edd-4b13-9ebb-b0dfa463cbd2" name="bab-real.dev" url="http://www-bastian-boehne.real-dev.de">
+        <fileTransfer host="www-bastian-boehne.real-dev.de" port="22" privateKey="$USER_HOME$/.ssh/dev" rootFolder="/hitmeister/shop/current/src" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="149deaf4-5f40-4928-ba42-b1418279aba3" name="shop.real-dev.de" url="http://shop.real-dev.de">
+        <fileTransfer host="shop.real-dev.de" port="22" privateKey="$PROJECT_DIR$/dev/vagrant_default" rootFolder="/hitmeister/shop/current/src" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
