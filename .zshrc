@@ -1,4 +1,4 @@
-export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/texlive/2017/bin/x86_64-linux:/snap/bin:
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/texlive/2017/bin/x86_64-linux:/snap/bin:/home/bb/.yarn/bin
 export HM_APPLICATION_ENV=development
 export VISUAL=vim
 export EDITOR=$VISUAL
@@ -14,7 +14,7 @@ export ZSH=~/.oh-my-zsh
 export FZF_COMPLETION_TRIGGER='**'
 export FZF_DEFAULT_OPTS="--height 20% --select-1"
 
-ZSH_THEME="powerlevel9k/powerlevel9k"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 DEFAULT_USER="bab"
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(dir vcs)
@@ -158,11 +158,11 @@ bindkey -v 'jk' vi-cmd-mode
 bindkey -r '^['
 bindkey -v '^[^[' sudo-command-line
 
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/bab/src/real-platform/.bin/google-cloud-sdk/path.zsh.inc' ]; then . '/home/bab/src/real-platform/.bin/google-cloud-sdk/path.zsh.inc'; fi
+source ~/.oh-my-zsh/custom/plugins/forgit/forgit.plugin.zsh
 
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/bab/src/real-platform/.bin/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/bab/src/real-platform/.bin/google-cloud-sdk/completion.zsh.inc'; fi
 
-# Platform binaries
-export PATH=/home/bab/src/real-platform/.bin:$PATH
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+eval `dircolors /home/bb/.dir_colors/dircolors`

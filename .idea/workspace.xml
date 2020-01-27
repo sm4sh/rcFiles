@@ -6,22 +6,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d1807a0-b6c7-4a73-946b-ccf686c5fa31" name="Default" comment="さn">
-      <change afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/app/Http/Request.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/resources/openapi/generics/Error.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/resources/openapi/specification.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/resources/openapi/tables/EnrichmentRule.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/app/Http/Controllers/RestControllerAbstract.php" beforeDir="false" afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/app/Http/Controllers/RestControllerAbstract.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../real-platform/services/product-discovery/martian-api/src/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cvimrc" beforeDir="false" afterPath="$PROJECT_DIR$/.cvimrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/47c1aff9-981c-439b-b922-e6b663bcaec5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/47c1aff9-981c-439b-b922-e6b663bcaec5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ideavimrc" beforeDir="false" afterPath="$PROJECT_DIR$/.ideavimrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.zsh_history" beforeDir="false" afterPath="$PROJECT_DIR$/.zsh_history" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/create_links.sh" beforeDir="false" afterPath="$PROJECT_DIR$/create_links.sh" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE" updatePackages="false">
-    <executablePath>/usr/bin/composer</executablePath>
+    <execution>
+      <executable path="/usr/bin/composer" />
+    </execution>
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="../../src/hitmeister-web/shop/storefront/tests/phpunit-full-coverage.xml" NAME="phpunit-full-coverage.xml" MODIFIED="1516882736020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="PhpCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
@@ -53,145 +56,6 @@
     <favorites_list name="hitmeister-web">
       <favorite_root url="file://$PROJECT_DIR$/config/app/config_development_and_test.yml" type="psiFile" klass="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
     </favorites_list>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/library/Pds/MessageQueue/QueueManager/Imports/ReloadBrokenPictures.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1134">
-              <caret line="81" selection-start-line="81" selection-end-line="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/library/Pds/MessageQueue/QueueManager/Item/EnrichItem.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1190">
-              <caret line="85" column="80" selection-start-line="85" selection-start-column="80" selection-end-line="85" selection-end-column="80" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver02/pds.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver01/pds.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="49" column="102" selection-start-line="49" selection-start-column="102" selection-end-line="49" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/library/Pds/Enrich/UpdateFactory.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/RabbitMQ/Driver.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3318">
-              <caret line="237" column="20" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver03/pds.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver08/pds.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver07/pds.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="44" selection-start-line="44" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/library/Pds/DataCollectors/Seller.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5950">
-              <caret line="425" selection-start-line="425" selection-end-line="425" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app/parameters_development.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/console/BuildApplication/Command/Api/GenerateCommand.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="770">
-              <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/shop/library/Category/Editor.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/shop/library/Category/Editor/InputValidator.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="457">
-              <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/app/message_queue.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3500">
-              <caret line="250" selection-start-line="250" selection-end-line="250" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -290,63 +154,6 @@
       </branch-storage>
     </favorite-branches>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/shop/orm/Model/Item/ZombieMapper.php" />
-        <option value="$PROJECT_DIR$/shop/api/library/API/Helper/Input.php" />
-        <option value="$PROJECT_DIR$/shop/api/library/API/Helper/Output.php" />
-        <option value="$PROJECT_DIR$/shop/orm/Model/Item/Entity.php" />
-        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Ean/Generator/Zombie.php" />
-        <option value="$PROJECT_DIR$/shop/api/library/API/RestController/Entity.php" />
-        <option value="$PROJECT_DIR$/shop/orm/Model/Item/ZombieApiMapper.php" />
-        <option value="$PROJECT_DIR$/shop/api/application/configs/api.yaml" />
-        <option value="$PROJECT_DIR$/shop/orm/Model/Item/Mapper.php" />
-        <option value="$PROJECT_DIR$/shop/api/library/API/Wrapper.php" />
-        <option value="$PROJECT_DIR$/shop/library/Api/PushNotifications.php" />
-        <option value="$PROJECT_DIR$/shop/storefront/library/Controller/Plugin/DefaultAction.php" />
-        <option value="$PROJECT_DIR$/config/app/services/pds/enrich_category_decider.yml" />
-        <option value="$PROJECT_DIR$/vendor/aws/aws-sdk-php/src/S3/ObjectUploader.php" />
-        <option value="$PROJECT_DIR$/vendor/aws/aws-sdk-php/src/S3/S3ClientTrait.php" />
-        <option value="$PROJECT_DIR$/console/HmApplication/Command/Pds/CategoryDecider/RetrainCommand.php" />
-        <option value="$PROJECT_DIR$/shop/storefront/public/static/js/main/hm/Tracking/Product.js" />
-        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Deskriptor/Client.php" />
-        <option value="$PROJECT_DIR$/shop/storefront/public/dev.php" />
-        <option value="$PROJECT_DIR$/dev/pds/martian-alert.sh" />
-        <option value="$PROJECT_DIR$/shop/api/application/modules/items/controllers/EntityController.php" />
-        <option value="$PROJECT_DIR$/.gitlab-ci.yml" />
-        <option value="$PROJECT_DIR$/config/app/config_production.yml" />
-        <option value="$PROJECT_DIR$/config/app/config_development.yml" />
-        <option value="$PROJECT_DIR$/config/app/services/pds/item.yml" />
-        <option value="$PROJECT_DIR$/config/app/config_test.yml" />
-        <option value="$PROJECT_DIR$/config/app/parameters_production.yml.dist" />
-        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Blacklisting/ItemUpdater.php" />
-        <option value="$PROJECT_DIR$/shop/orm/Service/Item.php" />
-        <option value="$PROJECT_DIR$/config/app/parameters_staging.yml.dist" />
-        <option value="$PROJECT_DIR$/config/app/parameters_development.yml.dist" />
-        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Deskriptor/Exception.php" />
-        <option value="$PROJECT_DIR$/tests/Unit/Pds/Item/DeskriptorTest.php" />
-        <option value="$PROJECT_DIR$/shop/storefront/modules/item/views/scripts/index/index.phtml" />
-        <option value="$PROJECT_DIR$/shop/storefront/public/static/css/storefront/php-controllers/item/index/_index.scss" />
-        <option value="$PROJECT_DIR$/shop/library/Pds/Item/Deskriptor.php" />
-        <option value="$PROJECT_DIR$/shop/storefront/modules/admin/controllers/LoginController.php" />
-        <option value="$PROJECT_DIR$/shop/storefront/modules/admin/controllers/SharedSetReviewController.php" />
-        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver06/pds.txt" />
-        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver05/pds.txt" />
-        <option value="$PROJECT_DIR$/console/HmApplication/Command/Pds/CategoryDecider/CategoryRdsExportCommand.php" />
-        <option value="$PROJECT_DIR$/shop/library/Pds/Enrich/Consumer/Abstract.php" />
-        <option value="$PROJECT_DIR$/shop/storefront/modules/item/views/javascripts/index/index.js" />
-        <option value="$PROJECT_DIR$/shop/storefront/modules/item/controllers/IndexController.php" />
-        <option value="$PROJECT_DIR$/config/app/parameters_development.yml" />
-        <option value="$PROJECT_DIR$/console/BuildApplication/Command/Api/GenerateCommand.php" />
-        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver08/pds.txt" />
-        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver07/pds.txt" />
-        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver03/pds.txt" />
-        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver02/pds.txt" />
-        <option value="$PROJECT_DIR$/cli/crontab/shop-cronserver01/pds.txt" />
-      </list>
-    </option>
-  </component>
   <component name="JsFlowSettings">
     <service-enabled>true</service-enabled>
     <exe-path />
@@ -388,43 +195,20 @@
     </servers>
   </component>
   <component name="PhpWebServerValidation" deployment_server_id="149deaf4-5f40-4928-ba42-b1418279aba3" path_to_validation_script="$PROJECT_DIR$/shop/storefront/public" selected_validation_type="REMOTE" web_path_to_validation_script="http://127.0.0.1/" />
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3">
-    <include_path>
-      <path value="$PROJECT_DIR$/vendor" />
-    </include_path>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="3201" />
-    <option name="y" value="27" />
-    <option name="width" value="1249" />
-    <option name="height" value="1413" />
-  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1WL9Z86peqKd05aarimpkAT6LVH" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <sortByType ProjectPane="false" />
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hitmeister-web" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hitmeister-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SearchEverywhereHistoryKey" value="services.&#9;FILE&#9;file:///home/bab/src/hitmeister-web/config/experimental/services.yml&#10;Newslette&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/MessageQueue/QueueManager/NewsletterSignup.php&#10;signup&#9;null&#9;null&#10;index&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/controllers/IndexController.php&#10;stage&#9;null&#9;null&#10;stage.ph&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/stage.phtml&#10;stage.pht&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/stage.phtml&#10;produ&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views/scripts/index/product-slider.phtml&#10;rec&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/controllers/RecommendationsController.php&#10;produc&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views/scripts/recommendations/product-slider.phtml&#10;bannerhandlerHo&#9;null&#9;null&#10;paymentcallb&#9;null&#9;null&#10;csv&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/tests/functional/library/Hitmeister/HSI/Formatter/csv&#10;csvexporter&#9;FILE&#9;file:///home/bab/src/hitmeister-web/library/Hitmeister/CSVExporter.php&#10;csvimport&#9;FILE&#9;file:///home/bab/src/hitmeister-web/library/Hitmeister/PageInfo/CsvImporter.php&#10;csvhelper&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/Result/Hitmeister_PageInfo_CsvHelper&#10;sw&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/public/static/js/components/swiper.js&#10;clientwidget_storefront item&#9;null&#9;null&#10;item-c&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views/scripts/recommendations/item-carousel.phtml&#10;pro&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views/scripts/recommendations/product-slider.phtml&#10;Deal&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/Oscm/Banner/Container/Homepage/Deal.php&#10;banne.js&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/public/static/js/main/hm/Tracking/Banner.js&#10;layout-real\&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/layout-real-account.phtml&#10;.htaccess&#9;FILE&#9;file:///home/bab/src/hitmeister-web/vendor/real-digital/frontend-core/styleguide/public/.htaccess&#10;banner&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/banner-section.phtml&#10;default/index/index&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views/scripts/index/index.phtml&#10;product-sli&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/product-slider-top.phtml&#10;mailingcontroller&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/admin/controllers/MailingController.php&#10;abstractpro&#9;null&#9;null&#10;item-caro&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views/scripts/recommendations/item-carousel.phtml&#10;stage.&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/layouts/scripts/storefront/stage.phtml&#10;eventview&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/library/Application/EventView.php&#10;default/view/&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views&#10;item/views/&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/item/views&#10;index/index.phtml&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views/scripts/index/index.phtml&#10;clientwidget st&#9;null&#9;null&#10;contain&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/Oscm/Banner/ContainerFactory.php&#10;serv&#9;FILE&#9;file:///home/bab/src/hitmeister-web/config/experimental/services.yml&#10;bannersystem.scss&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/public/static/css/shared/frontend-core/components/_bannersystem.scss&#10;banner.scss&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/public/static/css/shared/frontend-core/components/banner-system/_banners.scss&#10;adsbanner\&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/orm/Model/AdsBanner&#10;containerfa&#9;null&#9;null&#10;bannerhandler&#9;null&#9;null&#10;default/index/inde&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/storefront/modules/default/views/scripts/index/index.phtml&#10;customertest&#9;null&#9;null&#10;entityeventdata&#9;null&#9;null&#10;newsletter&#9;FILE&#9;file:///home/bab/src/hitmeister-web/shop/library/MessageQueue/QueueManager/NewsletterSignup.php&#10;hitmeister_http_&#9;null&#9;null&#10;pageinfocsv&#9;null&#9;null&#10;queue&#9;FILE&#9;file:///home/bab/src/hitmeister-web/config/experimental/message_queue.yml" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/vendor/pdepend/pdepend/build.properties&#10;/home/bab/src/hitmeister-web/vendor/zendframework/zendframework1/library/Zend/Form.php&#10;/home/bab/src/hitmeister-web/vendor/symfony/dependency-injection/Dumper/PhpDumper.php&#10;/home/bab/src/hitmeister-web/vendor/monolog/monolog/src/Monolog/Logger.php&#10;/home/bab/src/hitmeister-web/config/app/parameters_development.yml&#10;/home/bab/src/hitmeister-web/vendor/symfony/dependency-injection/Definition.php&#10;/home/bab/src/hitmeister-web/vendor/phpunit/phpunit/src/Framework/Assert.php&#10;/home/bab/src/hitmeister-web/vendor/goaop/framework/src/Instrument/ClassLoading/AopComposerLoader.php&#10;true&#10;/home/bab/src/hitmeister-web/vendor/zendframework/zendframework1/library/Zend/Http/Client.php&#10;/home/bab/src/hitmeister-web/shop/library/ResultGenerator/results.yml&#10;/home/bab/src/hitmeister-web/config/app/parameters.yml&#10;/home/bab/src/hitmeister-web/dev/dev.php" />
@@ -433,7 +217,7 @@
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="jsx.switch.disabled" value="true" />
     <property name="last.edited.regexp" value="http://www.gppdle.de" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/Unit/phpunit.xml.dist" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mazda-hws-oneweb" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
@@ -447,17 +231,10 @@
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="me.ihxq.acejump.lite.options.IdeaConfigurable" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/shop/library/Pds/Item" />
-      <recent name="$PROJECT_DIR$/dev/martian" />
-      <recent name="$PROJECT_DIR$/shop/storefront/public" />
-      <recent name="$PROJECT_DIR$/console/HmApplication/Command/OneTime/resources/Pd492FindItemsForNonAssociatedEans" />
-      <recent name="$PROJECT_DIR$/../real-platform/services/product-discovery/product-metrics-calculator/src/lib/Metrics/src/Images/" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/shop/storefront/modules/admin/views/javascripts/item-move" />
       <recent name="$PROJECT_DIR$/shop/storefront/modules/admin/views/javascripts" />
@@ -465,18 +242,13 @@
       <recent name="$PROJECT_DIR$/shop/storefront/modules/admin/forms/ItemMove" />
       <recent name="$PROJECT_DIR$/shop/storefront/modules/admin/views/scripts" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/shop/library/Pds/Item" />
+      <recent name="$PROJECT_DIR$/dev/martian" />
+      <recent name="$PROJECT_DIR$/shop/storefront/public" />
+      <recent name="$PROJECT_DIR$/console/HmApplication/Command/OneTime/resources/Pd492FindItemsForNonAssociatedEans" />
+      <recent name="$PROJECT_DIR$/../real-platform/services/product-discovery/product-metrics-calculator/src/lib/Metrics/src/Images/" />
+    </key>
   </component>
   <component name="RunManager" selected="PHPUnit.DeskriptorTest.test_summarise">
     <configuration name="CreatorTest.test_createCreditFromBruttoBooking_WhenErrorVatValueInvalid" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
@@ -559,6 +331,18 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value=",Show Fields,Show Constants,ALPHA_COMPARATOR,SHOW_INHERITED" />
   </component>
@@ -572,6 +356,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1508428637258</updated>
+      <workItem from="1578918065002" duration="456000" />
+      <workItem from="1578918534903" duration="1325000" />
+      <workItem from="1578920616458" duration="3335000" />
     </task>
     <task id="LOCAL-00064" summary="forgot to change all function calls">
       <created>1517934606936</created>
@@ -960,74 +747,6 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="ToolWindowManager">
-    <frame x="3201" y="27" width="1249" height="1413" extended-state="4" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" x="3506" y="95" width="528" height="1321" id="Project" order="0" sideWeight="0.5365127" visible="true" weight="0.25940752" />
-      <window_info id="Structure" order="1" sideWeight="0.46348733" side_tool="true" weight="0.26241136" />
-      <window_info id="npm" order="2" sideWeight="0.5084388" side_tool="true" weight="0.13683373" />
-      <window_info id="Favorites" order="3" sideWeight="0.4487705" side_tool="true" weight="0.33307272" />
-      <window_info id="Gulp" order="4" sideWeight="0.53831774" side_tool="true" weight="0.18377088" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Find" order="1" sideWeight="0.5060827" visible="true" weight="0.3695976" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49204454" weight="0.35916543" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49085122" weight="0.29731745" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4947283" weight="0.31892696" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49959448" weight="0.32944834" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.328614" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4909285" weight="0.40039644" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3233979" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.08799403" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5091488" weight="0.34004474" />
-      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="14" weight="0.32928678" />
-      <window_info anchor="bottom" id="Docker" order="15" weight="0.32811335" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24941361" />
-      <window_info anchor="right" id="Key Promoter X" order="3" weight="0.32927817" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.22871046" />
-      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.32927817" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32927817" />
-      <window_info anchor="right" id="Terminal" order="7" weight="0.30389816" />
-      <window_info anchor="right" id="make" order="8" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" x="3506" y="95" width="528" height="1321" id="Project" order="0" sideWeight="0.5394933" visible="true" weight="0.18242188" />
-      <window_info id="Structure" order="1" sideWeight="0.4605067" side_tool="true" weight="0.37060204" />
-      <window_info id="npm" order="2" sideWeight="0.5084388" side_tool="true" weight="0.13683373" />
-      <window_info id="Favorites" order="3" sideWeight="0.4487705" side_tool="true" weight="0.33307272" />
-      <window_info id="Gulp" order="4" sideWeight="0.53831774" side_tool="true" weight="0.18377088" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.5060827" weight="0.37061894" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49204454" weight="0.35943326" />
-      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="5" sideWeight="0.49085122" weight="0.29880774" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4947283" weight="0.31892696" />
-      <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Database Changes" order="8" sideWeight="0.49959448" weight="0.32944834" />
-      <window_info anchor="bottom" id="Inspection Results" order="9" weight="0.328614" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.4909285" weight="0.2637854" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3233979" />
-      <window_info anchor="bottom" id="File Transfer" order="12" weight="0.08799403" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5091488" weight="0.3405365" />
-      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="14" weight="0.32928678" />
-      <window_info anchor="bottom" id="Docker" order="15" weight="0.32811335" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24941361" />
-      <window_info anchor="right" id="Key Promoter X" order="3" weight="0.32927817" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.22871046" />
-      <window_info anchor="right" id="Mongo Explorer" order="5" weight="0.32927817" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32927817" />
-      <window_info anchor="right" id="Terminal" order="7" weight="0.30389816" />
-      <window_info anchor="right" id="make" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -1047,12 +766,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -1064,14 +777,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
+              <option name="COLUMN_ORDER" />
             </State>
           </value>
         </entry>
@@ -1132,12 +838,40 @@
     <option name="LAST_COMMIT_MESSAGE" value="add customernotesimport to db and sfm" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="507" height="462" key="Git.Branch.Popup" />
-    <state width="515" height="470" key="Git.Branch.Popup/1920.1080" />
-    <state width="513" height="468" key="Git.Branch.Popup/1920.1080/1920.1080" />
-    <state width="507" height="462" key="Git.Branch.Popup/2560.1440/1920.1080" />
-    <state width="515" height="470" key="Git.Branch.Popup@1920.1080" />
-    <state width="507" height="462" key="Git.Branch.Popup@2560.1440" />
+    <state x="543" y="178" width="824" height="679" key="#CLI_Interpreters" timestamp="1578990459984">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="543" y="178" width="824" height="679" key="#CLI_Interpreters/0.0.1920.1040@0.0.1920.1040" timestamp="1578990459984" />
+    <state x="738" y="275" width="424" height="479" key="FileChooserDialogImpl" timestamp="1578990484841">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="738" y="275" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1578990484841" />
+    <state width="507" height="462" key="Git.Branch.Popup" timestamp="1578918063894" />
+    <state width="515" height="470" key="Git.Branch.Popup/1920.1080" timestamp="1578918063894" />
+    <state width="513" height="468" key="Git.Branch.Popup/1920.1080/1920.1080" timestamp="1578918063894" />
+    <state width="507" height="462" key="Git.Branch.Popup/2560.1440/1920.1080" timestamp="1578918063894" />
+    <state width="515" height="470" key="Git.Branch.Popup@1920.1080" timestamp="1578918063894" />
+    <state width="507" height="462" key="Git.Branch.Popup@2560.1440" timestamp="1578918063894" />
+    <state x="464" y="155" key="SettingsEditor" timestamp="1578990462430">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="464" y="155" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1578990462430" />
+    <state x="643" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1578918067756">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="643" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578918067756" />
+    <state x="625" y="196" width="404" height="610" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578918858677">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="625" y="196" width="404" height="610" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578918858677" />
+    <state x="63" y="0" width="1774" height="1035" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog" timestamp="1578924995736">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="63" y="0" width="1774" height="1035" key="com.jetbrains.php.config.phpInfo.PhpInfo.PhpInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578924995736" />
+    <state x="623" y="239" key="search.everywhere.popup" timestamp="1578918072904">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="239" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578918072904" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1294,327 +1028,6 @@ $consumer-&gt;setAbstract(false);</expression-string>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
     </expressions>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/shop/orm/Model/PageInfo/meta.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app/services/pds/message_queues/enrich_item.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app/services/pds/enrich.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app/services/pds/enrich_category_decider.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/Strategy/Advanced/RabbitMQ.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/Hits/Util/Uri.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Media/Utils/Image.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="99" column="43" selection-start-line="99" selection-start-column="43" selection-end-line="99" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Attribute/AbstractValue.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/orm/Model/Attribute/Entity.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="364" column="20" selection-start-line="364" selection-start-column="20" selection-end-line="364" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Media/Utils.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="78" column="27" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="1056" column="9" selection-start-line="1056" selection-start-column="9" selection-end-line="1056" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard/standard_6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="99" column="9" selection-start-line="99" selection-start-column="9" selection-end-line="99" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Attribute/Value/Picture.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="430" column="8" selection-start-line="430" selection-start-column="8" selection-end-line="430" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app/config_development.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="211" column="36" selection-start-line="211" selection-start-column="36" selection-end-line="211" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app/parameters_development.yml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Media/Downloader.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="434">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/php-amqplib/php-amqplib/PhpAmqpLib/Channel/AMQPChannel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="1245" column="20" selection-start-line="1245" selection-start-column="20" selection-end-line="1245" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/Strategy/AbstractStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/AbstractQueueManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="150" column="15" selection-start-line="150" selection-start-column="15" selection-end-line="150" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/orm/Model/ImportFile/meta.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/Pds/Item/DeskriptorTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Item/Deskriptor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="48" column="4" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Pds/RawDatum/Seller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5782">
-          <caret line="413" column="1" selection-start-line="413" selection-start-column="1" selection-end-line="413" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/Strategy/AdvancedStrategy.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/AbstractDriver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="40" column="29" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/storefront/modules/item/views/javascripts/index/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/storefront/modules/item/controllers/IndexController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="990" column="28" selection-start-line="990" selection-start-column="28" selection-end-line="990" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Enrich/Update.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/templates/enum_type.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/templates/locator.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/src/Engine.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/src/Factory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/orm/SFM/templates/base_services_dao.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/SfmApplication/Application.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Makefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="86" column="29" selection-start-line="86" selection-start-column="29" selection-end-line="86" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Pds/MessageQueue/QueueManager/Imports/ReloadBrokenPictures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="81" selection-start-line="81" selection-end-line="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Pds/MessageQueue/QueueManager/Item/EnrichItem.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1190">
-          <caret line="85" column="80" selection-start-line="85" selection-start-column="80" selection-end-line="85" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver02/pds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Pds/Enrich/UpdateFactory.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/library/shared/MessageQueue/RabbitMQ/Driver.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3318">
-          <caret line="237" column="20" selection-start-line="237" selection-start-column="20" selection-end-line="237" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver03/pds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver08/pds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver07/pds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Pds/DataCollectors/Seller.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5950">
-          <caret line="425" selection-start-line="425" selection-end-line="425" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app/parameters_development.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/console/BuildApplication/Command/Api/GenerateCommand.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="55" column="78" selection-start-line="55" selection-start-column="78" selection-end-line="55" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Category/Editor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1120">
-          <caret line="80" column="58" selection-start-line="80" selection-start-column="58" selection-end-line="80" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/app/message_queue.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3500">
-          <caret line="250" selection-start-line="250" selection-end-line="250" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cli/crontab/shop-cronserver01/pds.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="49" column="102" selection-start-line="49" selection-start-column="102" selection-end-line="49" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/shop/library/Category/Editor/InputValidator.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="59" column="29" selection-start-line="59" selection-start-column="29" selection-end-line="59" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
   </component>
   <component name="masterDetails">
     <states>

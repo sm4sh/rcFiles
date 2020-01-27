@@ -1,3 +1,6 @@
+" enable easymotion plugin"
+set easymotion
+
 " paste buffer is normal buffer on linux "
 set clipboard=unnamed
 
@@ -84,10 +87,10 @@ nnoremap <Leader>; A;<Esc>
 inoremap <Leader>; <Esc>A;<Esc>
 
 " acejump with s, word mode with S -- deactivated, using acejump-lite"
-"noremap s :action AceAction<CR>
-"noremap S :action AceWordAction<CR>
-noremap s :action emacsIDEAs.AceJump<CR>
-noremap S :action emacsIDEAs.AceJumpWord<CR>
+noremap s :action AceAction<CR>
+noremap S :action AceWordAction<CR>
+"noremap s :action emacsIDEAs.AceJump<CR>
+"noremap S :action emacsIDEAs.AceJumpWord<CR>
 
 "delete whole function with dm (only working in php class files - experimental)"
 nnoremap dm [mV/^\s}<CR>d:nohlsearch<CR>

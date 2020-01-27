@@ -10,15 +10,10 @@
       <PhpCSConfiguration standards="MySource;PEAR;PSR1;PSR12;PSR2;Squiz;Zend" tool_path="$PROJECT_DIR$/vendor/bin/phpcs" />
     </phpcs_settings>
   </component>
-  <component name="PhpIncludePathManager">
-    <include_path>
-      <path value="$PROJECT_DIR$/vendor" />
-    </include_path>
-  </component>
   <component name="PhpInterpreters">
     <interpreters>
-      <interpreter home="sftp://vagrant@shop.real-dev.de:22/usr/local/bin/php" id="0bb13d43-aa45-47dd-b046-12e77a04ee4d" name="Remote PHP 7.3" debugger_id="php.debugger.XDebug">
-        <remote_data WEB_SERVER_CONFIG_ID="149deaf4-5f40-4928-ba42-b1418279aba3" WEB_SERVER_CONFIG_NAME="shop.real-dev.de" WEB_SERVER_CREDENTIALS_ID="sftp://vagrant@shop.real-dev.de:22" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" />
+      <interpreter id="0bb13d43-aa45-47dd-b046-12e77a04ee4d" name="Remote PHP 7.3" home="sftp://DATA" debugger_id="php.debugger.XDebug">
+        <remote_data WEB_SERVER_CONFIG_ID="149deaf4-5f40-4928-ba42-b1418279aba3" WEB_SERVER_CONFIG_NAME="shop.real-dev.de" WEB_SERVER_CREDENTIALS_ID="sftp://vagrant@shop.real-dev.de:22" INTERPRETER_PATH="/usr/local/bin/php" HELPERS_PATH="/home/vagrant/.phpstorm_helpers" INITIALIZED="false" VALID="true" RUN_AS_ROOT_VIA_SUDO="false" />
       </interpreter>
     </interpreters>
   </component>
@@ -32,9 +27,7 @@
       <extension name="ZendUtils" enabled="false" />
       <extension name="amqp" enabled="false" />
       <extension name="apache" enabled="false" />
-      <extension name="apc" enabled="false" />
       <extension name="apcu" enabled="false" />
-      <extension name="com_dotnet" enabled="false" />
       <extension name="couchbase" enabled="false" />
       <extension name="cubrid" enabled="false" />
       <extension name="dba" enabled="false" />
@@ -103,7 +96,7 @@
   </component>
   <component name="PhpUnit">
     <phpunit_settings>
-      <phpunit_by_interpreter interpreter_id="0bb13d43-aa45-47dd-b046-12e77a04ee4d" load_method="CUSTOM_LOADER" bootstrap_file_path="/hitmeister/shop/current/src/bootstrap.php" configuration_file_path="/hitmeister/shop/current/src/tests/Unit/phpunit.xml.dist" custom_loader_path="/hitmeister/shop/current/src/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
+      <phpunit_by_interpreter interpreter_id="0bb13d43-aa45-47dd-b046-12e77a04ee4d" bootstrap_file_path="/hitmeister/shop/current/src/bootstrap.php" configuration_file_path="/hitmeister/shop/current/src/tests/Unit/phpunit.xml.dist" custom_loader_path="/hitmeister/shop/current/src/vendor/autoload.php" phpunit_phar_path="" use_configuration_file="true" />
     </phpunit_settings>
   </component>
 </project>
