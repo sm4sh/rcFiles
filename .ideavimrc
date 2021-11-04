@@ -2,7 +2,7 @@
 set easymotion
 
 " paste buffer is normal buffer on linux "
-set clipboard=unnamed
+set clipboard+=unnamed
 
 " enable surround plugin for ideavim "
 set surround
@@ -30,7 +30,7 @@ set history=1000
 
 " hybrid line numbers -- deactivated due to performance"
 "set number
-"set relativenumber
+set number relativenumber
 
 " well duh "
 "let mapleader = ','
@@ -39,8 +39,8 @@ map <Space> <Leader>
 " shorter timeout between compound commands "
 set timeoutlen=150
 
-" easy mode switching - jk "
-imap jk <Esc>
+" easy mode switching - kj "
+imap kj <Esc>
 
 " easy removal of searchhighlighting "
 nnoremap ,<Space> :nohlsearch<Cr>
@@ -87,10 +87,10 @@ nnoremap <Leader>; A;<Esc>
 inoremap <Leader>; <Esc>A;<Esc>
 
 " acejump with s, word mode with S -- deactivated, using acejump-lite"
-noremap s :action AceAction<CR>
-noremap S :action AceWordAction<CR>
-"noremap s :action emacsIDEAs.AceJump<CR>
-"noremap S :action emacsIDEAs.AceJumpWord<CR>
+"noremap s :action AceAction<CR>
+"noremap S :action AceWordAction<CR>
+noremap s :action emacsIDEAs.AceJump<CR>
+noremap S :action emacsIDEAs.AceJumpWord<CR>
 
 "delete whole function with dm (only working in php class files - experimental)"
 nnoremap dm [mV/^\s}<CR>d:nohlsearch<CR>
@@ -112,4 +112,4 @@ nnoremap <C-e> :action EditorLineEnd<CR>
 inoremap <C-e> <Esc>:action EditorLineEnd<CR>i
 
 " use IntelliJ JoinLines because it's smart "
-nnoremap J :action EditorJoinLines<CR>
+"nnoremap J :action EditorJoinLines<CR>

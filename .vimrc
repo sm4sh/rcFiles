@@ -1,7 +1,11 @@
+" to be able to use :Man for manpages
+runtime! ftplugin/man.vim
+
 "this wraps git commit messages, fuck that
 "" filetype plugin indent on
 syntax enable
 
+set tabstop=2
 set backspace=indent,eol,start
 set number
 set relativenumber
@@ -13,8 +17,8 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 "Add simple highlight removal - Leader, Leertaste"
 nmap <Leader><space> :nohlsearch<cr>
 
-"Einfaches Modus switchen - jk"
-imap jk <Esc>
+"Einfaches Modus switchen - kj"
+imap kj <Esc>
 
 "Cursor Mode Change bei verschiedenen Modi"
 if has("autocmd")
@@ -84,6 +88,8 @@ nnoremap dm [mV/^\s}<CR>d:nohlsearch<CR>
 "Y to yank until end of line "
 map Y y$
 
-" jump to selection begin when yanking, not first yanked char in buffer "
-vnoremap y mxy`x
+" jump to selection begin when yanking, not first yanked char in buffer (DOES NOT WORK) "
+"vnoremap y mxy`x
 
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
